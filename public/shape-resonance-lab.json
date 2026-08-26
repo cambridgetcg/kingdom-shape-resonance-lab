@@ -1,0 +1,2165 @@
+{
+  "asOf": "2026-08-26",
+  "assets": [
+    {
+      "accessibilityText": "Fixed-fixed and fixed-free ideal strings with the same length and wave speed have different allowed frequency families.",
+      "audio": null,
+      "byteLength": 2771,
+      "byteReceipt": "sha256:cea637613481cfd12acd90e7d566b5047e7cbf92ce3d4c5db940acaf2bc1d3fa",
+      "externalReferences": false,
+      "mediaType": "image/svg+xml",
+      "path": "assets/boundary-variants.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/boundary-variants.svg",
+      "role": "static-diagram",
+      "scripts": false,
+      "semanticType": "STATIC-DIAGRAM",
+      "title": "Same string, different boundary"
+    },
+    {
+      "accessibilityText": "Two connected non-isomorphic six-vertex graphs have the same exact combinatorial-Laplacian characteristic polynomial.",
+      "audio": null,
+      "byteLength": 4558,
+      "byteReceipt": "sha256:5c3c2fd4c247af368ba5ec79e7d680680cc2d5441c1453cec5ed188b57cc64df",
+      "externalReferences": false,
+      "mediaType": "image/svg+xml",
+      "path": "assets/cospectral-graphs.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/cospectral-graphs.svg",
+      "role": "static-diagram",
+      "scripts": false,
+      "semanticType": "STATIC-DIAGRAM",
+      "title": "Different graphs, identical Laplacian spectrum"
+    },
+    {
+      "accessibilityText": "P4 gains angular frequency units only after mass and stiffness are declared; its zero eigenvalue is a rigid mode.",
+      "audio": null,
+      "byteLength": 3194,
+      "byteReceipt": "sha256:c3403024102d8e79863234f7b639665e5f5b193d8562f9b9a2557f9971c80185",
+      "externalReferences": false,
+      "mediaType": "image/svg+xml",
+      "path": "assets/graph-to-hz.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/graph-to-hz.svg",
+      "role": "static-diagram",
+      "scripts": false,
+      "semanticType": "STATIC-DIAGRAM",
+      "title": "Graph to hertz: a physical bridge is required"
+    },
+    {
+      "accessibilityText": "A membrane Laplacian and a plate biharmonic operator assign different frequency scaling to the same square outline.",
+      "audio": null,
+      "byteLength": 2379,
+      "byteReceipt": "sha256:a756ed02202ce19b4d8a01a52f000c0fd889f010e67aa9c4719dd7e327c6a4bc",
+      "externalReferences": false,
+      "mediaType": "image/svg+xml",
+      "path": "assets/membrane-plate.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/membrane-plate.svg",
+      "role": "static-diagram",
+      "scripts": false,
+      "semanticType": "STATIC-DIAGRAM",
+      "title": "Same square outline, different operator"
+    },
+    {
+      "accessibilityText": "Pitch-class and voice-leading geometry under explicit Western 12-TET, octave, permutation, register, and L1 conventions.",
+      "audio": null,
+      "byteLength": 3459,
+      "byteReceipt": "sha256:19333d74272c52c89e649a1dfc5a35e2ee6c1c3e3826c577b1744d6455d71dea",
+      "externalReferences": false,
+      "mediaType": "image/svg+xml",
+      "path": "assets/musical-geometry.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/musical-geometry.svg",
+      "role": "static-diagram",
+      "scripts": false,
+      "semanticType": "STATIC-DIAGRAM",
+      "title": "12-TET pitch class and a declared voice-leading metric"
+    },
+    {
+      "accessibilityText": "A real sequence and its cyclic reversal have exactly equal DFT magnitudes and conjugate phases.",
+      "audio": null,
+      "byteLength": 2066,
+      "byteReceipt": "sha256:692a5be2735a6ea3d5c0cff594e7c8d05207f228d8ffac2e43126c59a6d14a8a",
+      "externalReferences": false,
+      "mediaType": "image/svg+xml",
+      "path": "assets/phase-magnitude.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/phase-magnitude.svg",
+      "role": "static-diagram",
+      "scripts": false,
+      "semanticType": "STATIC-DIAGRAM",
+      "title": "Same Fourier magnitude, different phase and waveform"
+    },
+    {
+      "accessibilityText": "A Euclidean spacing and a clustered spacing have equal onset count but different cyclic gap sequences.",
+      "audio": null,
+      "byteLength": 6750,
+      "byteReceipt": "sha256:f6c11ea61f7fa2b9cb21b43aa6d49c4ce1173765dd1726bbb8365447eab5b343",
+      "externalReferences": false,
+      "mediaType": "image/svg+xml",
+      "path": "assets/rhythm-cycle.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/rhythm-cycle.svg",
+      "role": "static-diagram",
+      "scripts": false,
+      "semanticType": "STATIC-DIAGRAM",
+      "title": "Five onsets on a sixteen-step cycle"
+    },
+    {
+      "accessibilityText": "Modes one-two and two-one span one two-dimensional eigenspace; an individual basis inside it is not canonical.",
+      "audio": null,
+      "byteLength": 2271,
+      "byteReceipt": "sha256:d2bdfcbf2ba7e5a5121787912244b5efe7df2f384960a524138b743f6a759009",
+      "externalReferences": false,
+      "mediaType": "image/svg+xml",
+      "path": "assets/square-degeneracy.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/square-degeneracy.svg",
+      "role": "static-diagram",
+      "scripts": false,
+      "semanticType": "STATIC-DIAGRAM",
+      "title": "Square symmetry creates a degenerate eigenspace"
+    },
+    {
+      "accessibilityText": "A half-second integer-triangle mix controlled by the three non-rigid frequencies of the declared P4 mass-spring model.",
+      "audio": {
+        "amplitudeScale": "Weighted PCM triangle codes 12:9:7 divided by 32 with a 320-frame integer fade; PCM code is dimensionless and not joules or pascals.",
+        "bitDepth": 16,
+        "channels": 1,
+        "clippedSampleCount": 0,
+        "clipping": false,
+        "container": "RIFF/WAVE",
+        "durationSeconds": 0.5,
+        "encoding": "PCM signed integer",
+        "endianness": "little-endian",
+        "frameCount": 4000,
+        "frequencyScale": "Physical modal targets f=ω/(2π): 97.449535840, 180.063263231, 235.263991073 Hz. Integer phase increments 52317821, 96670728, 126306393 produce actual digital carrier fundamentals 97.449535504, 180.063262582, 235.263990238 Hz, with errors -3.365e-7, -6.496e-7, -8.347e-7 Hz. This is a sonification, not radiated pressure.",
+        "generator": "kingdom-shape-resonance-lab integer-pcm/0.1",
+        "nonAudioEquivalent": "The public snapshot contains the complete schedule, equations, units, tables, and relation that generated this file.",
+        "normalization": "NONE",
+        "pcmByteReceipt": "sha256:bb90706034760906cc62527c8baa80eb4083cc25c6eb7438d5a9b8a365436634",
+        "peakAbsoluteCode": 26255,
+        "peakFractionOfFullScale": 0.801239014,
+        "playbackPolicy": "USER_INITIATED_SAME_ORIGIN_GET_ONLY",
+        "preClampPeakAbsoluteCode": 26255,
+        "sampleRate": 8000,
+        "semanticType": "DECLARED-SONIFICATION",
+        "sourceFixtureCanonicalReceipt": "sha256:e6cb9652b25ad1a2be4bbe8f18d6cf6ab02c5ab97cdb3e21f797f5fea397f0cc",
+        "spectralCaveat": "The three listed values are carrier fundamentals, not the complete WAV spectrum. Triangle oscillators add odd harmonics; finite duration and the 320-frame envelope add window leakage and sidebands.",
+        "storedMaximumCode": 25649,
+        "storedMinimumCode": -26255,
+        "storedPcmWithinRange": true,
+        "timeScale": "1 sample = 1/8000 second; 4000 frames = 0.5 second"
+      },
+      "byteLength": 8044,
+      "byteReceipt": "sha256:7ce6187a0396e7108102e4dffa8a8ae26b090f8bd3d67de37312c96dd7c5f556",
+      "externalReferences": false,
+      "mediaType": "audio/wav",
+      "path": "audio/graph-modes.wav",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/audio/graph-modes.wav",
+      "role": "declared-sonification",
+      "scripts": false,
+      "semanticType": "DECLARED-SONIFICATION",
+      "title": "P4 non-rigid modal sonification"
+    },
+    {
+      "accessibilityText": "A half-second schedule of four integer-triangle tone bursts.",
+      "audio": {
+        "amplitudeScale": "Each burst declares an integer peak PCM code and an 80-frame linear edge envelope; no normalization.",
+        "bitDepth": 16,
+        "channels": 1,
+        "clippedSampleCount": 0,
+        "clipping": false,
+        "container": "RIFF/WAVE",
+        "durationSeconds": 0.5,
+        "encoding": "PCM signed integer",
+        "endianness": "little-endian",
+        "frameCount": 4000,
+        "frequencyScale": "Each integer-triangle burst period maps to sampleRate/period: 100 Hz, 160 Hz, 200 Hz, 250 Hz. These are authored digital carriers, not physical modes.",
+        "generator": "kingdom-shape-resonance-lab integer-pcm/0.1",
+        "nonAudioEquivalent": "The public snapshot contains the complete schedule, equations, units, tables, and relation that generated this file.",
+        "normalization": "NONE",
+        "pcmByteReceipt": "sha256:1df5ac6f7375c16bccf1a1fa416a6cebde450927bce88b1534dbd5f316c5f227",
+        "peakAbsoluteCode": 12000,
+        "peakFractionOfFullScale": 0.366210938,
+        "playbackPolicy": "USER_INITIATED_SAME_ORIGIN_GET_ONLY",
+        "preClampPeakAbsoluteCode": 12000,
+        "sampleRate": 8000,
+        "semanticType": "DECLARED-SONIFICATION",
+        "sourceFixtureCanonicalReceipt": "sha256:9583f8c5e97be6afc688cac5dde58c5919d94835b317a9f5630d1a8a046aa714",
+        "spectralCaveat": "The listed rates are carrier fundamentals, not complete spectra. Triangle carriers contain odd harmonics and each finite 80-frame edge envelope produces sidebands and finite-window leakage.",
+        "storedMaximumCode": 12000,
+        "storedMinimumCode": -12000,
+        "storedPcmWithinRange": true,
+        "timeScale": "1 sample = 1/8000 second; 4000 frames = 0.5 second"
+      },
+      "byteLength": 8044,
+      "byteReceipt": "sha256:157389bd7321f81c47a870d4895ddf4ae8c824f87baee8af03bfa769428f57b5",
+      "externalReferences": false,
+      "mediaType": "audio/wav",
+      "path": "audio/phase-forward.wav",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/audio/phase-forward.wav",
+      "role": "declared-sonification",
+      "scripts": false,
+      "semanticType": "DECLARED-SONIFICATION",
+      "title": "Forward finite phase fixture"
+    },
+    {
+      "accessibilityText": "The exact cyclic sample reversal of phase-forward.wav; its DFT magnitudes are equal and phases conjugated.",
+      "audio": {
+        "amplitudeScale": "Exact cyclic sample reversal of phase-forward.wav; no normalization. DFT phases conjugate while magnitudes remain equal.",
+        "bitDepth": 16,
+        "channels": 1,
+        "clippedSampleCount": 0,
+        "clipping": false,
+        "container": "RIFF/WAVE",
+        "durationSeconds": 0.5,
+        "encoding": "PCM signed integer",
+        "endianness": "little-endian",
+        "frameCount": 4000,
+        "frequencyScale": "Each integer-triangle burst period maps to sampleRate/period: 100 Hz, 160 Hz, 200 Hz, 250 Hz. These are authored digital carriers, not physical modes.",
+        "generator": "kingdom-shape-resonance-lab integer-pcm/0.1",
+        "nonAudioEquivalent": "The public snapshot contains the complete schedule, equations, units, tables, and relation that generated this file.",
+        "normalization": "NONE",
+        "pcmByteReceipt": "sha256:89609bbd464e1a0934275bc0b86bef66e91aec422a954b5561e86877aede29dd",
+        "peakAbsoluteCode": 12000,
+        "peakFractionOfFullScale": 0.366210938,
+        "playbackPolicy": "USER_INITIATED_SAME_ORIGIN_GET_ONLY",
+        "preClampPeakAbsoluteCode": 12000,
+        "sampleRate": 8000,
+        "semanticType": "DECLARED-SONIFICATION",
+        "sourceFixtureCanonicalReceipt": "sha256:9583f8c5e97be6afc688cac5dde58c5919d94835b317a9f5630d1a8a046aa714",
+        "spectralCaveat": "The listed rates are carrier fundamentals, not complete spectra. Triangle carriers contain odd harmonics and each finite 80-frame edge envelope produces sidebands and finite-window leakage.",
+        "storedMaximumCode": 12000,
+        "storedMinimumCode": -12000,
+        "storedPcmWithinRange": true,
+        "timeScale": "1 sample = 1/8000 second; 4000 frames = 0.5 second"
+      },
+      "byteLength": 8044,
+      "byteReceipt": "sha256:db2a43b42f37c6feb3876bb085e2868f68d976e904fc4110a82ef0e4199638f4",
+      "externalReferences": false,
+      "mediaType": "audio/wav",
+      "path": "audio/phase-reversed.wav",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/audio/phase-reversed.wav",
+      "role": "declared-sonification",
+      "scripts": false,
+      "semanticType": "DECLARED-SONIFICATION",
+      "title": "Cyclically reversed phase fixture"
+    }
+  ],
+  "authorship": "Maintainer-authorized assisted construction; exact text has not been separately human-reviewed.",
+  "boundary": {
+    "categorySeparations": [
+      "physical resonance is not musical harmony",
+      "mechanical energy is not loudness, feeling, moral value, or metaphorical energy",
+      "harmonicity and roughness do not by themselves determine consonance or preference",
+      "a spectrum does not uniquely determine shape or waveform",
+      "structural vibration is not automatically radiated sound",
+      "a sonification is an authored mapping, not a measurement"
+    ],
+    "excluded": [
+      "measurements or observations of a physical object",
+      "acoustic radiation or sound-pressure prediction",
+      "microphone, recording, upload, input analysis, tracking, autoplay, or runtime synthesis",
+      "participant, personal, biometric, therapeutic, diagnostic, health, or healing data and claims",
+      "consciousness, quantum-mystical, sacred-geometry, cosmic-harmony, or universal-aesthetic claims",
+      "governmental, scientific, cultural, evaluative, adoption, execution, or decision authority"
+    ],
+    "included": [
+      "finite synthetic mathematical fixtures",
+      "declared linear physical models with units and assumptions",
+      "numerical approximations labelled with precision",
+      "deterministic SVG diagrams and finite PCM WAV sonifications",
+      "falsifiers and non-claims",
+      "12-TET and cyclic-rhythm conventions explicitly scoped"
+    ],
+    "oneSentence": "Shape defines model-dependent possibilities and excitation selects motion; acoustic coupling would be required for a physical sound-pressure prediction, while this release provides declared sonification only; people and cultures may make music.",
+    "physicalChain": [
+      "geometry-topology-metric-boundary-material",
+      "declared-operator",
+      "eigenmodes",
+      "excitation-and-damping",
+      "structural-motion-and-mechanical-energy",
+      "explicit-acoustic-coupling-or-declared-sonification",
+      "audio-signal",
+      "bounded-musical-perceptual-cultural-interpretation"
+    ]
+  },
+  "conversionEdges": [
+    {
+      "doesNotPreserve": [
+        "unmodelled material detail",
+        "real-world validity"
+      ],
+      "from": "geometry-topology-metric-boundary-material",
+      "id": "specification-to-operator",
+      "operation": "Choose a model class and its operator from all declared structural inputs.",
+      "preserves": [
+        "declared units",
+        "boundary assumptions"
+      ],
+      "status": "physical-model",
+      "to": "declared-operator",
+      "unitsIn": [
+        "metre",
+        "kilogram",
+        "newton-per-metre"
+      ],
+      "unitsOut": []
+    },
+    {
+      "doesNotPreserve": [
+        "canonical basis inside a degenerate eigenspace"
+      ],
+      "from": "declared-operator",
+      "id": "operator-to-eigenmodes",
+      "operation": "Solve the finite or analytic eigenproblem under its assumptions.",
+      "preserves": [
+        "operator spectrum",
+        "multiplicity"
+      ],
+      "status": "exact-mathematical",
+      "to": "eigenmodes",
+      "unitsIn": [],
+      "unitsOut": [
+        "dimensionless",
+        "inverse-square-metre",
+        "radian-per-second"
+      ]
+    },
+    {
+      "doesNotPreserve": [
+        "units",
+        "physical interpretation"
+      ],
+      "from": "dimensionless-graph-laplacian",
+      "id": "bare-graph-to-hertz",
+      "operation": "REFUSED unless mass and stiffness or another dimensional physical bridge are declared.",
+      "preserves": [],
+      "status": "no-canonical-conversion",
+      "to": "hertz",
+      "unitsIn": [
+        "dimensionless"
+      ],
+      "unitsOut": []
+    },
+    {
+      "doesNotPreserve": [
+        "actual object validity"
+      ],
+      "from": "P4-plus-M-plus-K",
+      "id": "graph-physical-bridge",
+      "operation": "omega_i=sqrt((k/m)*lambda_i) for the equal model.",
+      "preserves": [
+        "mode ordering under positive common k/m"
+      ],
+      "status": "physical-model",
+      "to": "modal-angular-frequency",
+      "unitsIn": [
+        "dimensionless",
+        "kilogram",
+        "newton-per-metre"
+      ],
+      "unitsOut": [
+        "radian-per-second"
+      ]
+    },
+    {
+      "doesNotPreserve": [
+        "phase",
+        "amplitude"
+      ],
+      "from": "radian-per-second",
+      "id": "angular-to-cyclic-frequency",
+      "operation": "f=omega/(2*pi).",
+      "preserves": [
+        "time scale"
+      ],
+      "status": "exact-mathematical",
+      "to": "hertz",
+      "unitsIn": [
+        "radian-per-second"
+      ],
+      "unitsOut": [
+        "hertz"
+      ]
+    },
+    {
+      "doesNotPreserve": [
+        "radiation efficiency",
+        "spatial pressure",
+        "hearing conditions"
+      ],
+      "from": "structural-motion",
+      "id": "motion-to-pressure",
+      "operation": "REFUSED: v0.1 supplies no acoustic coupling, propagation medium, receiver, or pressure calibration.",
+      "preserves": [],
+      "status": "no-canonical-conversion",
+      "to": "sound-pressure",
+      "unitsIn": [
+        "metre",
+        "metre-per-second"
+      ],
+      "unitsOut": []
+    },
+    {
+      "doesNotPreserve": [
+        "waveform shape",
+        "physical amplitude",
+        "mechanical energy",
+        "acoustic pressure"
+      ],
+      "from": "selected-modal-frequency",
+      "id": "mode-to-pcm",
+      "operation": "Map selected frequencies to deterministic integer triangle phase accumulators.",
+      "preserves": [
+        "declared target-frequency ordering"
+      ],
+      "status": "declared-sonification",
+      "to": "PCM16",
+      "unitsIn": [
+        "hertz"
+      ],
+      "unitsOut": [
+        "pcm16"
+      ]
+    },
+    {
+      "doesNotPreserve": [
+        "SI energy",
+        "loudness",
+        "pressure"
+      ],
+      "from": "joule",
+      "id": "mechanical-energy-to-amplitude",
+      "operation": "REFUSED: no calibration maps mechanical energy to sample code.",
+      "preserves": [],
+      "status": "no-canonical-conversion",
+      "to": "PCM16",
+      "unitsIn": [
+        "joule"
+      ],
+      "unitsOut": []
+    },
+    {
+      "doesNotPreserve": [
+        "culture",
+        "preference",
+        "meaning"
+      ],
+      "from": "frequency-relations",
+      "id": "frequency-structure-to-consonance",
+      "operation": "REFUSED in this artifact; any perceptual hypothesis would require declared stimuli, listeners, tasks, models, and contexts.",
+      "preserves": [],
+      "status": "no-canonical-conversion",
+      "to": "perceived-consonance",
+      "unitsIn": [
+        "hertz"
+      ],
+      "unitsOut": []
+    },
+    {
+      "doesNotPreserve": [
+        "timbre",
+        "style",
+        "preference"
+      ],
+      "from": "12TET-registered-chords",
+      "id": "pitch-to-voice-leading",
+      "operation": "Minimize registered semitone motion under the declared equivalences and metric.",
+      "preserves": [
+        "declared pitch-class membership"
+      ],
+      "status": "exact-mathematical",
+      "to": "L1-voice-leading-distance",
+      "unitsIn": [
+        "semitone-12tet"
+      ],
+      "unitsOut": [
+        "semitone-12tet"
+      ]
+    },
+    {
+      "doesNotPreserve": [
+        "listener response",
+        "culture",
+        "aesthetic value"
+      ],
+      "from": "L1-voice-leading-distance",
+      "id": "voice-leading-to-preference",
+      "operation": "REFUSED without a contextual perceptual and cultural study.",
+      "preserves": [],
+      "status": "no-canonical-conversion",
+      "to": "aesthetic-preference",
+      "unitsIn": [
+        "semitone-12tet"
+      ],
+      "unitsOut": []
+    },
+    {
+      "doesNotPreserve": [
+        "accent",
+        "tempo",
+        "performance"
+      ],
+      "from": "Z16-onset-set",
+      "id": "onsets-to-cyclic-gaps",
+      "operation": "Take sorted cyclic differences including wraparound.",
+      "preserves": [
+        "onset count",
+        "cycle length"
+      ],
+      "status": "exact-mathematical",
+      "to": "cyclic-gap-sequence",
+      "unitsIn": [
+        "cycle-index"
+      ],
+      "unitsOut": [
+        "cycle-index"
+      ]
+    },
+    {
+      "doesNotPreserve": [
+        "meaning",
+        "embodiment",
+        "preference"
+      ],
+      "from": "cyclic-gap-variance",
+      "id": "evenness-to-musical-rank",
+      "operation": "REFUSED: arithmetic evenness is not a cultural or aesthetic ranking.",
+      "preserves": [],
+      "status": "no-canonical-conversion",
+      "to": "musical-quality",
+      "unitsIn": [
+        "dimensionless"
+      ],
+      "unitsOut": []
+    }
+  ],
+  "conversionStatuses": [
+    "exact-mathematical",
+    "physical-model",
+    "numerical-approximation",
+    "declared-sonification",
+    "perceptual-hypothesis",
+    "cultural-interpretation",
+    "no-canonical-conversion"
+  ],
+  "exhibits": [
+    {
+      "accessibilitySummary": "The diagram and table expose the P4 topology, exact dimensionless spectrum, M and K bridge, zero rigid mode, modal frequencies, driven sweep, phase crossing, and sonification refusal boundary.",
+      "audioAssetPaths": [
+        "audio/graph-modes.wav"
+      ],
+      "claims": {
+        "claim": "A graph spectrum acquires angular-frequency units only through a declared M,K physical model. Under the separately declared force, coupling, damping, response observable, and sweep, the lambda=2 scalar model has an analytic displacement-response peak and a 90-degree phase crossing.",
+        "falsifier": "Changing m, k, boundary anchoring, damping, drive shape, or response observable changes the modal frequencies or response peak. An orthogonal drive has Q=0 and produces no forced response in this mode even at omega_n; with c=0, exact-frequency forcing has no bounded steady-state amplitude.",
+        "nonClaims": [
+          "The graph alone does not contain hertz.",
+          "A natural frequency match alone is not called resonance.",
+          "The synthetic peak is not a physical observation.",
+          "The WAV is not an acoustic-pressure prediction.",
+          "PCM amplitude is not mechanical energy."
+        ],
+        "scope": "Finite, linear, equal-mass, equal-spring synthetic model only."
+      },
+      "derivations": [
+        {
+          "assumptions": [
+            "equal masses",
+            "equal springs",
+            "small linear displacement"
+          ],
+          "caveat": "Without k and m, lambda has no hertz interpretation.",
+          "expression": "K=kL and M=mI",
+          "id": "laplacian-to-physical-operator",
+          "result": "omega_i=sqrt((k/m)*lambda_i)",
+          "status": "physical-model",
+          "unitId": "radian-per-second"
+        },
+        {
+          "assumptions": [
+            "second is the time unit"
+          ],
+          "caveat": "A numerical decimal uses pi approximation only for display.",
+          "expression": "f_i=omega_i/(2*pi)",
+          "id": "angular-to-cyclic-frequency",
+          "result": "modal cycles per second",
+          "status": "exact-mathematical",
+          "unitId": "hertz"
+        },
+        {
+          "assumptions": [
+            "linear time-invariant mode",
+            "harmonic forcing Q(t)=Q0*cos(Omega*t)",
+            "steady state"
+          ],
+          "caveat": "The sweep is calculated; no experiment or measurement occurred.",
+          "expression": "A(Omega)=Q0/sqrt((k*lambda-m*Omega^2)^2+(c*Omega)^2)",
+          "id": "driven-steady-state-response",
+          "result": "displacement amplitude sweep",
+          "status": "physical-model",
+          "unitId": "metre"
+        },
+        {
+          "assumptions": [
+            "same driven scalar mode"
+          ],
+          "caveat": "Phase angle is displayed in degrees, not a unit of energy or frequency.",
+          "expression": "delta(Omega)=atan2(c*Omega,k*lambda-m*Omega^2)",
+          "id": "driven-phase",
+          "result": "phase lag crosses 90 degrees at Omega=omega_n",
+          "status": "physical-model",
+          "unitId": "dimensionless"
+        },
+        {
+          "assumptions": [
+            "linear modal projection",
+            "zero initial response in this mode"
+          ],
+          "caveat": "Frequency proximity without nonzero coupling is insufficient; this is why the aligned drive is called zero-net-spatial-force, not net-zero modal drive.",
+          "expression": "Q=phi^T f0=0 for any drive vector orthogonal to phi",
+          "id": "orthogonal-drive-falsifier",
+          "result": "no forced response in the lambda=2 mode even when Omega=omega_n",
+          "status": "exact-mathematical",
+          "unitId": "newton"
+        },
+        {
+          "assumptions": [
+            "scalar lambda=2 modal equation",
+            "instantaneous Q(t)=Q0*cos(Omega*t)",
+            "c nonnegative"
+          ],
+          "caveat": "This is a model balance, not an observed ledger.",
+          "expression": "d((1/2)m*eta_dot^2+(1/2)k*lambda*eta^2)/dt = eta_dot*Q0*cos(Omega*t)-c*eta_dot^2",
+          "id": "mechanical-energy-balance",
+          "result": "instantaneous forcing power minus damping power",
+          "status": "physical-model",
+          "unitId": "watt"
+        },
+        {
+          "assumptions": [
+            "no radiation or propagation model supplied"
+          ],
+          "caveat": "The release supplies declared sonification only.",
+          "expression": "structural motion -> acoustic pressure",
+          "id": "structure-to-sound-pressure",
+          "result": "REFUSED",
+          "status": "no-canonical-conversion",
+          "unitId": "not-applicable"
+        }
+      ],
+      "domain": "spectral mechanics and forced linear response",
+      "id": "graph-to-hz-driven-resonance",
+      "model": {
+        "acousticCoupling": "NONE. Acoustic radiation, medium impedance, receiver position, and sound pressure are not modelled; they would be required for a physical audio prediction.",
+        "boundaryConditions": [
+          "Free rigid translation is retained as mode 0.",
+          "No external endpoint anchoring is present."
+        ],
+        "damping": "Driven mode uses damping ratio zeta=0.05 and modal c=2*zeta*m*omega_n. The audio mix uses a separate integer fade envelope, not this physical damping.",
+        "excitation": "Synthetic force f(t)=F0*phi*cos(Omega*t), F0=0.1 N; this has net spatial force zero and instantaneous modal force Q(t)=phi^T f(t)=Q0*cos(Omega*t), with nonzero amplitude Q0=F0.",
+        "geometry": "Four indexed displacement coordinates q0..q3; no ambient spatial embedding is required.",
+        "material": "M=mI with m=0.01 kg; K=kL with k=6400 N/m.",
+        "metric": "Graph Laplacian is dimensionless; displacement coordinates use metres after the physical-model declaration.",
+        "operator": "K phi = omega^2 M phi; driven mode phi=[1,-1,-1,1]/2 has Laplacian eigenvalue 2.",
+        "sonification": "Three non-rigid modal frequencies control integer triangle oscillators in graph-modes.wav. This authored mapping is not radiated sound.",
+        "systemKind": "four-degree-of-freedom equal-mass equal-spring chain",
+        "topology": "Path graph P4 with edges (0,1), (1,2), (2,3)."
+      },
+      "ordinal": 1,
+      "quantities": [
+        {
+          "approximateValue": 6400,
+          "exactValue": "6400",
+          "id": "spring-stiffness",
+          "label": "Equal spring stiffness k",
+          "note": "Introduces force-per-displacement units.",
+          "status": "physical-model",
+          "unitId": "newton-per-metre"
+        },
+        {
+          "approximateValue": 0.01,
+          "exactValue": "0.01",
+          "id": "point-mass",
+          "label": "Equal point mass m",
+          "note": "Introduces inertia.",
+          "status": "physical-model",
+          "unitId": "kilogram"
+        },
+        {
+          "approximateValue": 1131.370849898,
+          "exactValue": "800*sqrt(2)",
+          "id": "driven-natural-angular-frequency",
+          "label": "Driven mode natural angular frequency",
+          "note": "For the normalized lambda=2 eigenvector.",
+          "status": "physical-model",
+          "unitId": "radian-per-second"
+        },
+        {
+          "approximateValue": 180.063263231,
+          "exactValue": "400*sqrt(2)/pi",
+          "id": "driven-natural-frequency",
+          "label": "Driven mode natural frequency",
+          "note": "Cycles per second obtained by exact division by 2π before numerical display.",
+          "status": "numerical-approximation",
+          "unitId": "hertz"
+        },
+        {
+          "approximateValue": 0.1,
+          "exactValue": "0.1",
+          "id": "force-amplitude",
+          "label": "Aligned modal force amplitude F0=Q0",
+          "note": "The vector f0=F0*phi has zero component sum while generalized-force amplitude Q0=phi^T f0=F0 is nonzero.",
+          "status": "physical-model",
+          "unitId": "newton"
+        },
+        {
+          "approximateValue": 1.13137085,
+          "exactValue": "2*0.05*0.01*800*sqrt(2)",
+          "id": "modal-damping",
+          "label": "Driven modal damping coefficient",
+          "note": "Viscous modal damping c=2*zeta*m*omega_n.",
+          "status": "physical-model",
+          "unitId": "newton-second-per-metre"
+        },
+        {
+          "approximateValue": 0.997496867,
+          "exactValue": "sqrt(1-2*zeta^2)=sqrt(0.995)",
+          "id": "peak-drive-ratio",
+          "label": "Displacement-response peak ratio Omega_peak/omega_n",
+          "note": "Valid for zeta<1/sqrt(2).",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        },
+        {
+          "approximateValue": 0.00007822284,
+          "exactValue": null,
+          "id": "peak-displacement",
+          "label": "Steady-state modal displacement amplitude at analytic peak",
+          "note": "Synthetic model response, not a measurement.",
+          "status": "numerical-approximation",
+          "unitId": "metre"
+        }
+      ],
+      "question": "When does a dimensionless graph mode acquire hertz, and when may a model call its response resonant?",
+      "resonanceAssessment": {
+        "analyticPeakDriveRatio": "sqrt(1-2*zeta^2)",
+        "couplingDeclared": true,
+        "dampingDeclared": true,
+        "explanation": "The label applies only to the deterministic damped-forced model calculation; no physical system was driven or measured.",
+        "forcingDeclared": true,
+        "measuredResonance": false,
+        "modelResonanceCriterionSatisfied": true,
+        "phaseCriterion": "phase lag equals 90 degrees at Omega=omega_n and the analytic amplitude peak lies below omega_n for zeta=0.05",
+        "phaseCriterionSatisfied": true,
+        "physicalExperimentPerformed": false,
+        "responseObservable": "steady-state modal displacement amplitude and phase lag",
+        "sweepDeclared": true,
+        "syntheticResponsePeakDetected": true
+      },
+      "sourceIds": [
+        "mit-modal-analysis"
+      ],
+      "tables": [
+        {
+          "caption": "Natural modes of the declared P4 mass-spring model",
+          "columns": [
+            "mode",
+            "Laplacian eigenvalue",
+            "exact omega rad/s",
+            "approx omega rad/s",
+            "approx frequency Hz",
+            "classification"
+          ],
+          "rows": [
+            [
+              "0",
+              "0",
+              "0",
+              "0.000000000",
+              "0.000000000",
+              "rigid translation; excluded from audio"
+            ],
+            [
+              "1",
+              "2-sqrt(2)",
+              "800*sqrt(2-sqrt(2))",
+              "612.293491784",
+              "97.449535840",
+              "elastic mode; included in declared sonification"
+            ],
+            [
+              "2",
+              "2",
+              "800*sqrt(2)",
+              "1131.370849898",
+              "180.063263231",
+              "elastic mode; included in declared sonification"
+            ],
+            [
+              "3",
+              "2+sqrt(2)",
+              "800*sqrt(2+sqrt(2))",
+              "1478.207252018",
+              "235.263991073",
+              "elastic mode; included in declared sonification"
+            ]
+          ]
+        },
+        {
+          "caption": "Forced damped lambda=2 steady-state displacement response",
+          "columns": [
+            "drive ratio Omega/omega_n",
+            "drive frequency Hz",
+            "displacement amplitude m",
+            "phase lag degrees",
+            "marker"
+          ],
+          "rows": [
+            [
+              "0.500000",
+              "90.031631616",
+              "1.039359539e-5",
+              "3.814075",
+              "sweep point"
+            ],
+            [
+              "0.800000",
+              "144.050610585",
+              "2.118461502e-5",
+              "12.528808",
+              "sweep point"
+            ],
+            [
+              "0.950000",
+              "171.060100070",
+              "5.739019136e-5",
+              "44.255941",
+              "sweep point"
+            ],
+            [
+              "sqrt(1-2*zeta^2)",
+              "179.612540964",
+              "7.822283974e-5",
+              "87.130424",
+              "analytic displacement peak"
+            ],
+            [
+              "1.000000",
+              "180.063263231",
+              "7.812500000e-5",
+              "90.000000",
+              "natural-frequency phase crossing"
+            ],
+            [
+              "1.050000",
+              "189.066426393",
+              "5.324212841e-5",
+              "134.309723",
+              "sweep point"
+            ],
+            [
+              "1.200000",
+              "216.075915878",
+              "1.713003944e-5",
+              "164.744881",
+              "sweep point"
+            ],
+            [
+              "1.500000",
+              "270.094894847",
+              "6.205480241e-6",
+              "173.157227",
+              "sweep point"
+            ]
+          ]
+        }
+      ],
+      "title": "A graph needs a physical bridge—and resonance needs a drive",
+      "visualAssetPath": "assets/graph-to-hz.svg"
+    },
+    {
+      "accessibilitySummary": "Two text-labelled frequency families and four exact table rows per boundary provide the nonvisual equivalent.",
+      "audioAssetPaths": [],
+      "claims": {
+        "claim": "Boundary conditions select different admissible mode families even when interval length and wave speed are equal.",
+        "falsifier": "Replacing the fixed-free derivative condition with a second fixed displacement condition returns the fixed-fixed family.",
+        "nonClaims": [
+          "This is not a measured string.",
+          "Equal outline and material summary do not erase boundary conditions.",
+          "No acoustic output is predicted."
+        ],
+        "scope": "Ideal one-dimensional small-displacement wave equation."
+      },
+      "derivations": [
+        {
+          "assumptions": [
+            "Dirichlet at both ends"
+          ],
+          "caveat": "Ideal linear string.",
+          "expression": "f_n=n*c/(2L)",
+          "id": "fixed-fixed-family",
+          "result": "integer harmonic family",
+          "status": "exact-mathematical",
+          "unitId": "hertz"
+        },
+        {
+          "assumptions": [
+            "Dirichlet at x=0",
+            "Neumann at x=L"
+          ],
+          "caveat": "Ideal linear string.",
+          "expression": "f_n=(2n-1)*c/(4L)",
+          "id": "fixed-free-family",
+          "result": "odd-quarter-wave family",
+          "status": "exact-mathematical",
+          "unitId": "hertz"
+        }
+      ],
+      "domain": "one-dimensional wave equation",
+      "id": "same-string-different-boundary",
+      "model": {
+        "acousticCoupling": "NONE; transverse string motion is not converted to pressure.",
+        "boundaryConditions": [
+          "Variant A: u(0,t)=u(L,t)=0.",
+          "Variant B: u(0,t)=0 and spatial derivative ux(L,t)=0."
+        ],
+        "damping": "No damping.",
+        "excitation": "Natural-mode eigenproblem only; no forcing.",
+        "geometry": "Interval x in [0,1 m].",
+        "material": "Wave speed c=100 m/s is held equal; density and tension are represented only through c.",
+        "metric": "Euclidean length L=1 m.",
+        "operator": "u_tt=c^2 u_xx",
+        "sonification": "NONE.",
+        "systemKind": "ideal taut string",
+        "topology": "One connected one-dimensional interval."
+      },
+      "ordinal": 2,
+      "quantities": [
+        {
+          "approximateValue": 1,
+          "exactValue": "1",
+          "id": "string-length",
+          "label": "Length L",
+          "note": "Held equal.",
+          "status": "physical-model",
+          "unitId": "metre"
+        },
+        {
+          "approximateValue": 100,
+          "exactValue": "100",
+          "id": "wave-speed",
+          "label": "Wave speed c",
+          "note": "Held equal.",
+          "status": "physical-model",
+          "unitId": "metre-per-second"
+        }
+      ],
+      "question": "Can equal length and wave speed still produce different allowed frequencies?",
+      "resonanceAssessment": null,
+      "sourceIds": [
+        "mit-wave-equation",
+        "ucsb-energy-method"
+      ],
+      "tables": [
+        {
+          "caption": "First four allowed frequencies",
+          "columns": [
+            "boundary",
+            "n",
+            "exact expression",
+            "frequency Hz"
+          ],
+          "rows": [
+            [
+              "fixed-fixed",
+              "1",
+              "1*c/(2L)",
+              "50"
+            ],
+            [
+              "fixed-fixed",
+              "2",
+              "2*c/(2L)",
+              "100"
+            ],
+            [
+              "fixed-fixed",
+              "3",
+              "3*c/(2L)",
+              "150"
+            ],
+            [
+              "fixed-fixed",
+              "4",
+              "4*c/(2L)",
+              "200"
+            ],
+            [
+              "fixed-free",
+              "1",
+              "(2*1-1)*c/(4L)",
+              "25"
+            ],
+            [
+              "fixed-free",
+              "2",
+              "(2*2-1)*c/(4L)",
+              "75"
+            ],
+            [
+              "fixed-free",
+              "3",
+              "(2*3-1)*c/(4L)",
+              "125"
+            ],
+            [
+              "fixed-free",
+              "4",
+              "(2*4-1)*c/(4L)",
+              "175"
+            ]
+          ]
+        }
+      ],
+      "title": "Same ideal string, different boundary family",
+      "visualAssetPath": "assets/boundary-variants.svg"
+    },
+    {
+      "accessibilitySummary": "The table states both exact laws and selected numerical values; the diagram labels the operators and shared outline.",
+      "audioAssetPaths": [],
+      "claims": {
+        "claim": "The same outline and even the same sinusoidal labels can sit under different operators and frequency scalings.",
+        "falsifier": "Changing the operator from -Delta to Delta^2 changes sqrt(m^2+n^2) scaling to (m^2+n^2) scaling under the declared models.",
+        "nonClaims": [
+          "The chosen parameters do not assert identical material.",
+          "A square silhouette does not identify an object as a membrane or plate.",
+          "No sound-pressure field is produced."
+        ],
+        "scope": "Comparison of two ideal linear PDE fixtures."
+      },
+      "derivations": [
+        {
+          "assumptions": [
+            "ideal membrane",
+            "fixed displacement boundary"
+          ],
+          "caveat": "Not a plate law.",
+          "expression": "f_mn=(c/(2a))*sqrt(m^2+n^2)",
+          "id": "membrane-frequency",
+          "result": "square-root spectral scaling",
+          "status": "physical-model",
+          "unitId": "hertz"
+        },
+        {
+          "assumptions": [
+            "Kirchhoff-Love thin plate",
+            "simply supported fixture"
+          ],
+          "caveat": "Not a membrane law.",
+          "expression": "f_mn=(pi*beta/(2a^2))*(m^2+n^2)",
+          "id": "plate-frequency",
+          "result": "linear-in-eigenvalue scaling",
+          "status": "physical-model",
+          "unitId": "hertz"
+        }
+      ],
+      "domain": "partial differential operators on a square",
+      "id": "same-square-different-operator",
+      "model": {
+        "acousticCoupling": "NONE; no radiation or pressure model.",
+        "boundaryConditions": [
+          "Membrane displacement zero on boundary.",
+          "Plate fixture uses the simply supported sinusoidal eigenfamily."
+        ],
+        "damping": "No damping.",
+        "excitation": "Natural-mode comparison only.",
+        "geometry": "Both domains are a one-metre square.",
+        "material": "Membrane wave speed c=100 m/s; plate beta=sqrt(D/(rho*h))=10 m^2/s. These illustrative parameters are not claimed to describe one material.",
+        "metric": "Euclidean metric with side a=1 m.",
+        "operator": "Membrane: -Delta. Plate: Delta^2 in the declared thin-plate model.",
+        "sonification": "NONE.",
+        "systemKind": "ideal membrane compared with simply supported thin plate",
+        "topology": "Both domains are simply connected."
+      },
+      "ordinal": 3,
+      "quantities": [
+        {
+          "approximateValue": 1,
+          "exactValue": "1",
+          "id": "square-side",
+          "label": "Square side a",
+          "note": "Held equal as outline only.",
+          "status": "physical-model",
+          "unitId": "metre"
+        },
+        {
+          "approximateValue": 100,
+          "exactValue": "100",
+          "id": "membrane-wave-speed",
+          "label": "Membrane c",
+          "note": "Membrane parameter.",
+          "status": "physical-model",
+          "unitId": "metre-per-second"
+        },
+        {
+          "approximateValue": 10,
+          "exactValue": "10",
+          "id": "plate-beta",
+          "label": "Plate sqrt(D/(rho*h))",
+          "note": "Thin-plate parameter.",
+          "status": "physical-model",
+          "unitId": "square-metre-per-second"
+        }
+      ],
+      "question": "Does a shared square outline determine the frequency law?",
+      "resonanceAssessment": null,
+      "sourceIds": [
+        "mit-wave-equation",
+        "nasa-vibration-plates"
+      ],
+      "tables": [
+        {
+          "caption": "Selected square mode labels under two operators",
+          "columns": [
+            "mode",
+            "m^2+n^2",
+            "membrane exact Hz",
+            "membrane approx Hz",
+            "plate exact Hz",
+            "plate approx Hz"
+          ],
+          "rows": [
+            [
+              "(1,1)",
+              "2",
+              "50*sqrt(2)",
+              "70.710678119",
+              "5*pi*2",
+              "31.415926536"
+            ],
+            [
+              "(1,2)",
+              "5",
+              "50*sqrt(5)",
+              "111.803398875",
+              "5*pi*5",
+              "78.539816340"
+            ],
+            [
+              "(2,2)",
+              "8",
+              "50*sqrt(8)",
+              "141.421356237",
+              "5*pi*8",
+              "125.663706144"
+            ]
+          ]
+        }
+      ],
+      "title": "A membrane and a plate are not one square-shaped instrument",
+      "visualAssetPath": "assets/membrane-plate.svg"
+    },
+    {
+      "accessibilitySummary": "Three labelled panels show two conventional basis members and one rotated basis; equations and noncanonical status are tabulated.",
+      "audioAssetPaths": [],
+      "claims": {
+        "claim": "A repeated eigenvalue identifies a multidimensional invariant subspace; it does not canonically name individual basis vectors inside that subspace.",
+        "falsifier": "Any nontrivial orthogonal rotation of phi_12 and phi_21 gives a different basis with the same eigenvalue, directly refuting basis uniqueness.",
+        "nonClaims": [
+          "The perfect square is an ideal symmetry.",
+          "A rendered nodal pattern is not the only possible observed combination.",
+          "Degeneracy does not imply mystical balance or aesthetic value."
+        ],
+        "scope": "Exact square symmetry under the declared membrane operator."
+      },
+      "derivations": [
+        {
+          "assumptions": [
+            "orthonormal starting basis",
+            "same repeated eigenvalue"
+          ],
+          "caveat": "A perturbation or measurement convention may select a basis, but the unperturbed operator does not.",
+          "expression": "psi_1=cos(theta)*phi_12+sin(theta)*phi_21; psi_2=-sin(theta)*phi_12+cos(theta)*phi_21",
+          "id": "basis-rotation",
+          "result": "another orthonormal eigenbasis for every theta",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        }
+      ],
+      "domain": "symmetry and eigenspace geometry",
+      "id": "square-symmetry-degeneracy",
+      "model": {
+        "acousticCoupling": "NONE.",
+        "boundaryConditions": [
+          "Dirichlet displacement boundary."
+        ],
+        "damping": "No damping.",
+        "excitation": "Natural eigenproblem only.",
+        "geometry": "Square [0,a] by [0,a], a=1 m.",
+        "material": "Uniform ideal membrane represented by constant c; frequency value is not needed here.",
+        "metric": "Euclidean square metric.",
+        "operator": "-Delta with phi_mn=sin(m*pi*x/a) sin(n*pi*y/a)",
+        "sonification": "NONE.",
+        "systemKind": "ideal fixed-boundary square membrane",
+        "topology": "Simply connected domain."
+      },
+      "ordinal": 4,
+      "quantities": [
+        {
+          "approximateValue": 49.348022005,
+          "exactValue": "5*pi^2/a^2",
+          "id": "degenerate-spatial-eigenvalue",
+          "label": "Shared spatial eigenvalue lambda_12=lambda_21",
+          "note": "Multiplicity two on the perfect square.",
+          "status": "numerical-approximation",
+          "unitId": "inverse-square-metre"
+        },
+        {
+          "approximateValue": 2,
+          "exactValue": "2",
+          "id": "eigenspace-dimension",
+          "label": "Eigenspace dimension",
+          "note": "Spanned by phi_12 and phi_21.",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        }
+      ],
+      "question": "What does a repeated eigenvalue leave undetermined?",
+      "resonanceAssessment": null,
+      "sourceIds": [
+        "mit-wave-equation"
+      ],
+      "tables": [
+        {
+          "caption": "One repeated square-membrane eigenspace",
+          "columns": [
+            "member",
+            "formula",
+            "eigenvalue",
+            "canonical?"
+          ],
+          "rows": [
+            [
+              "phi_12",
+              "sin(pi*x/a) sin(2*pi*y/a)",
+              "5*pi^2/a^2",
+              "no; basis member"
+            ],
+            [
+              "phi_21",
+              "sin(2*pi*x/a) sin(pi*y/a)",
+              "5*pi^2/a^2",
+              "no; basis member"
+            ],
+            [
+              "rotated pair",
+              "orthogonal theta rotation",
+              "same",
+              "no; equally valid basis"
+            ]
+          ]
+        }
+      ],
+      "title": "Square symmetry fixes an eigenspace, not one privileged basis",
+      "visualAssetPath": "assets/square-degeneracy.svg"
+    },
+    {
+      "accessibilitySummary": "Both edge lists, degree witnesses, coefficient vectors, factorization, and spectrum are provided as text and machine data.",
+      "audioAssetPaths": [],
+      "claims": {
+        "claim": "The pair falsifies the universal proposition that a connected finite simple graph is uniquely determined by its combinatorial-Laplacian spectrum.",
+        "falsifier": "Equal exact characteristic polynomials establish equal spectra, while unequal degree multisets prove non-isomorphism.",
+        "nonClaims": [
+          "It does not claim these graphs are planar drums.",
+          "It does not assign hertz or sound.",
+          "It does not prove every inverse spectral problem is non-unique."
+        ],
+        "scope": "Finite combinatorial Laplacian only; Kac and Gordon-Webb-Wolpert are separate continuum context links."
+      },
+      "derivations": [
+        {
+          "assumptions": [
+            "finite simple graph",
+            "integer combinatorial Laplacian"
+          ],
+          "caveat": "The producer recomputes both graphs independently.",
+          "expression": "Faddeev-LeVerrier over BigInt traces of L^k",
+          "id": "exact-characteristic-polynomial",
+          "result": "[1,-14,73,-176,192,-72,0]",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        },
+        {
+          "assumptions": [
+            "graph isomorphisms preserve degrees"
+          ],
+          "caveat": "This witness does not depend on drawing layout.",
+          "expression": "degreeMultiset(A) != degreeMultiset(B)",
+          "id": "non-isomorphism-witness",
+          "result": "graphs are non-isomorphic",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        }
+      ],
+      "domain": "finite inverse spectral counterexample",
+      "id": "finite-laplacian-cospectral-counterexample",
+      "model": {
+        "acousticCoupling": "NONE.",
+        "boundaryConditions": [
+          "Combinatorial Laplacian L=D-A.",
+          "No continuum boundary."
+        ],
+        "damping": "No damping.",
+        "excitation": "No excitation.",
+        "geometry": "Six labelled vertices in each drawing; drawing coordinates carry no metric meaning.",
+        "material": "No mass, stiffness, or acoustic material is assigned.",
+        "metric": "Combinatorial adjacency only; no edge lengths.",
+        "operator": "Combinatorial Laplacian and det(tI-L).",
+        "sonification": "NONE.",
+        "systemKind": "pair of finite connected simple graphs",
+        "topology": "Graph A and Graph B use explicitly listed edge sets."
+      },
+      "ordinal": 5,
+      "quantities": [
+        {
+          "approximateValue": null,
+          "exactValue": "t(t-2)(t-3)^2(t^2-6t+4)",
+          "id": "shared-polynomial",
+          "label": "Shared characteristic polynomial",
+          "note": "Coefficient vector [1,-14,73,-176,192,-72,0].",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        },
+        {
+          "approximateValue": null,
+          "exactValue": "[0,3-sqrt(5),2,3,3,3+sqrt(5)]",
+          "id": "shared-spectrum",
+          "label": "Shared sorted Laplacian spectrum",
+          "note": "Eigenvalue 3 has multiplicity two.",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        },
+        {
+          "approximateValue": null,
+          "exactValue": "[2,2,2,2,2,4]",
+          "id": "degree-witness-a",
+          "label": "Graph A sorted degrees",
+          "note": "Degree multiset is an isomorphism invariant.",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        },
+        {
+          "approximateValue": null,
+          "exactValue": "[1,2,2,3,3,3]",
+          "id": "degree-witness-b",
+          "label": "Graph B sorted degrees",
+          "note": "Different from Graph A.",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        }
+      ],
+      "question": "Does an exact spectrum uniquely identify every finite connected graph?",
+      "resonanceAssessment": null,
+      "sourceIds": [
+        "kac-shape-drum",
+        "gww-isospectral-drums"
+      ],
+      "tables": [
+        {
+          "caption": "Exact finite counterexample data",
+          "columns": [
+            "graph",
+            "edges",
+            "sorted degrees",
+            "connected",
+            "det(tI-L) coefficients"
+          ],
+          "rows": [
+            [
+              "A",
+              "[[0,2],[0,3],[0,4],[0,5],[1,4],[1,5],[2,3]]",
+              "[2,2,2,2,2,4]",
+              "true",
+              "[1,-14,73,-176,192,-72,0]"
+            ],
+            [
+              "B",
+              "[[0,2],[0,4],[0,5],[1,2],[1,4],[1,5],[2,3]]",
+              "[1,2,2,3,3,3]",
+              "true",
+              "[1,-14,73,-176,192,-72,0]"
+            ]
+          ]
+        }
+      ],
+      "title": "Different connected graphs can share one Laplacian spectrum",
+      "visualAssetPath": "assets/cospectral-graphs.svg"
+    },
+    {
+      "accessibilitySummary": "The full event schedule, reversal equation, WAV format metadata, PCM receipts, and waveform-order distinction remain available without playback.",
+      "audioAssetPaths": [
+        "audio/phase-forward.wav",
+        "audio/phase-reversed.wav"
+      ],
+      "claims": {
+        "claim": "For a real sequence, cyclic time reversal conjugates every DFT coefficient, preserving every magnitude while changing phases and, for this nonsymmetric fixture, sample order.",
+        "falsifier": "The producer verifies the two PCM blocks are unequal and satisfy y[n]=x[-n mod N] sample by sample; the displayed algebra then forces magnitude equality.",
+        "nonClaims": [
+          "Magnitude equality does not imply equal waveform.",
+          "Different waveform does not guarantee a universal perceptual difference.",
+          "The files are not recordings or physical-acoustic predictions."
+        ],
+        "scope": "Finite N=4000 real PCM sequence and its cyclic DFT."
+      },
+      "derivations": [
+        {
+          "assumptions": [
+            "finite real sequence",
+            "cyclic indexing"
+          ],
+          "caveat": "The theorem concerns the finite PCM sequence, not an analogue signal outside the file.",
+          "expression": "Y[k]=sum_n x[-n] exp(-i2*pi*k*n/N)=conj(X[k]) for real x",
+          "id": "reversal-dft",
+          "result": "|Y[k]|=|X[k]| for every k",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        },
+        {
+          "assumptions": [
+            "no calibration, transducer, gain, or acoustic model"
+          ],
+          "caveat": "Playback hardware may produce sound, but the artifact predicts no pressure field.",
+          "expression": "PCM16 code -> pascal",
+          "id": "pcm-to-pressure",
+          "result": "REFUSED",
+          "status": "no-canonical-conversion",
+          "unitId": "not-applicable"
+        }
+      ],
+      "domain": "finite discrete Fourier phase counterexample",
+      "id": "same-magnitude-different-phase",
+      "model": {
+        "acousticCoupling": "NONE; PCM codes are not pressure.",
+        "boundaryConditions": [
+          "Cyclic reversal fixes n=0 and maps n to N-n for 1<=n<N."
+        ],
+        "damping": "The 80-frame edge envelope is authored digital amplitude shaping, not mechanical damping.",
+        "excitation": "Four deterministic integer-triangle tone bursts create x; y is its exact cyclic reversal.",
+        "geometry": "A 4000-index discrete time cycle.",
+        "material": "Synthetic integer sample codes only; no medium or transducer.",
+        "metric": "Uniform sample interval 1/8000 second.",
+        "operator": "N-point discrete Fourier transform.",
+        "sonification": "Both files are declared sonifications of a finite exact sequence relation.",
+        "systemKind": "two finite mono PCM16 sequences",
+        "topology": "Cyclic group Z_4000 for the DFT theorem."
+      },
+      "ordinal": 6,
+      "quantities": [
+        {
+          "approximateValue": 8000,
+          "exactValue": "8000",
+          "id": "sample-rate",
+          "label": "Sample rate",
+          "note": "Digital sampling convention.",
+          "status": "declared-sonification",
+          "unitId": "hertz"
+        },
+        {
+          "approximateValue": 4000,
+          "exactValue": "4000",
+          "id": "frame-count",
+          "label": "Frames per file",
+          "note": "Duration 0.5 second.",
+          "status": "exact-mathematical",
+          "unitId": "sample"
+        },
+        {
+          "approximateValue": null,
+          "exactValue": "y[0]=x[0]; y[n]=x[N-n]",
+          "id": "reversal-relation",
+          "label": "Real cyclic reversal",
+          "note": "Ensures Y[k]=conj(X[k]).",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        }
+      ],
+      "question": "Can two different real finite waveforms have exactly equal DFT magnitudes?",
+      "resonanceAssessment": null,
+      "sourceIds": [
+        "miao-fourier-phase"
+      ],
+      "tables": [
+        {
+          "caption": "Exact forward-sequence burst schedule; reverse file is cyclic sample reversal",
+          "columns": [
+            "start sample",
+            "length samples",
+            "triangle period samples",
+            "target peak PCM code",
+            "phase offset samples",
+            "carrier Hz"
+          ],
+          "rows": [
+            [
+              "200",
+              "400",
+              "80",
+              "10000",
+              "0",
+              "100"
+            ],
+            [
+              "900",
+              "550",
+              "50",
+              "7500",
+              "7",
+              "160"
+            ],
+            [
+              "1700",
+              "300",
+              "40",
+              "12000",
+              "13",
+              "200"
+            ],
+            [
+              "2800",
+              "600",
+              "32",
+              "9000",
+              "3",
+              "250"
+            ]
+          ]
+        }
+      ],
+      "title": "Equal Fourier magnitude does not recover sample order",
+      "visualAssetPath": "assets/phase-magnitude.svg"
+    },
+    {
+      "accessibilitySummary": "Pitch classes, registered representatives, every voice move, total distance, and the refusal to infer preference are tabulated.",
+      "audioAssetPaths": [],
+      "claims": {
+        "claim": "Chord and voice-leading geometry is well-defined only after equivalence relations, register choices, and a metric are declared.",
+        "falsifier": "Changing the metric, tuning lattice, chord equivalence, cardinality rule, or register window can change the nearest path.",
+        "nonClaims": [
+          "The L1 distance is not consonance, quality, emotion, or preference.",
+          "12-TET is not a universal tuning system.",
+          "A short path does not make a progression culturally neutral."
+        ],
+        "scope": "One explicit Western 12-TET equal-cardinality L1 convention."
+      },
+      "derivations": [
+        {
+          "assumptions": [
+            "12-TET convention"
+          ],
+          "caveat": "Other tuning systems require another space.",
+          "expression": "pc(p)=p mod 12",
+          "id": "pitch-to-pitch-class",
+          "result": "cyclic pitch-class coordinate",
+          "status": "exact-mathematical",
+          "unitId": "cycle-index"
+        },
+        {
+          "assumptions": [
+            "equal cardinality",
+            "L1 metric",
+            "registered target representatives permitted"
+          ],
+          "caveat": "Another equivalence relation or metric can change the result.",
+          "expression": "min over declared bijections and octave representatives of sum_i |p_i-q_sigma(i)|",
+          "id": "voice-leading-distance",
+          "result": "distance 1 for the fixture",
+          "status": "exact-mathematical",
+          "unitId": "semitone-12tet"
+        },
+        {
+          "assumptions": [
+            "no listener, context, style, timbre, or task supplied"
+          ],
+          "caveat": "Mathematical proximity is not an aesthetic verdict.",
+          "expression": "short voice-leading distance -> preferred or consonant",
+          "id": "distance-to-preference",
+          "result": "REFUSED",
+          "status": "no-canonical-conversion",
+          "unitId": "not-applicable"
+        }
+      ],
+      "domain": "bounded mathematical music theory",
+      "id": "twelve-tet-voice-leading-geometry",
+      "model": {
+        "acousticCoupling": "NONE.",
+        "boundaryConditions": [
+          "Source chord C major uses registered [0,4,7].",
+          "Target E minor may use registered [-1,4,7], whose pitch classes are [11,4,7]."
+        ],
+        "damping": "No damping.",
+        "excitation": "No physical excitation.",
+        "geometry": "Pitch classes form Z_12; registered pitches are integer semitone coordinates.",
+        "material": "No instrument, tuning drift, timbre, listener, or culture is represented beyond the named Western 12-TET convention.",
+        "metric": "Voice-leading distance is the minimum L1 sum of absolute registered semitone moves under declared bijections and octave representatives.",
+        "operator": "Finite quotient and assignment search.",
+        "sonification": "NONE; the geometry is shown, not sounded.",
+        "systemKind": "12-tone equal-temperament pitch-class and registered voice-leading fixture",
+        "topology": "Octave equivalence maps p to p mod 12; chord order is quotiented by permutation only for pitch-class sets."
+      },
+      "ordinal": 7,
+      "quantities": [
+        {
+          "approximateValue": 12,
+          "exactValue": "12",
+          "id": "octave-size",
+          "label": "Octave size in this convention",
+          "note": "Defines p~p+12.",
+          "status": "exact-mathematical",
+          "unitId": "semitone-12tet"
+        },
+        {
+          "approximateValue": 1,
+          "exactValue": "|0-(-1)|+|4-4|+|7-7|=1",
+          "id": "voice-leading-distance",
+          "label": "Declared minimum L1 path",
+          "note": "C major [0,4,7] to E minor [-1,4,7].",
+          "status": "exact-mathematical",
+          "unitId": "semitone-12tet"
+        }
+      ],
+      "question": "What does a one-semitone path mean, and what does it not mean?",
+      "resonanceAssessment": null,
+      "sourceIds": [
+        "tymoczko-chord-geometry",
+        "callender-generalized-voice-leading",
+        "consonance-models-review",
+        "mcdermott-cultural-variation",
+        "plomp-levelt-critical-bandwidth"
+      ],
+      "tables": [
+        {
+          "caption": "One declared minimal voice leading",
+          "columns": [
+            "source voice",
+            "target representative",
+            "signed move st",
+            "absolute move st"
+          ],
+          "rows": [
+            [
+              "C4 / 0",
+              "B3 / -1",
+              "-1",
+              "1"
+            ],
+            [
+              "E4 / 4",
+              "E4 / 4",
+              "0",
+              "0"
+            ],
+            [
+              "G4 / 7",
+              "G4 / 7",
+              "0",
+              "0"
+            ],
+            [
+              "total",
+              "under declared bijection",
+              "vector [-1,0,0]",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "title": "Chord geometry starts by declaring equivalences and a metric",
+      "visualAssetPath": "assets/musical-geometry.svg"
+    },
+    {
+      "accessibilitySummary": "Both onset sets, all cyclic gaps, exact variances, and the no-aesthetic-conversion boundary are provided in text.",
+      "audioAssetPaths": [],
+      "claims": {
+        "claim": "A cyclic onset set can be compared by exact gap structure under a declared convention.",
+        "falsifier": "Both patterns have five onsets yet have unequal exact gap variances, while neither arithmetic result supplies an aesthetic ordering.",
+        "nonClaims": [
+          "Lower gap variance is not a universal quality score.",
+          "This fixture does not identify one pattern as traditional to a specific culture.",
+          "Onset geometry omits accent, tempo, embodiment, and interpretation."
+        ],
+        "scope": "Finite Z_16 onset-only comparison."
+      },
+      "derivations": [
+        {
+          "assumptions": [
+            "Z_16 cycle",
+            "start at onset 0"
+          ],
+          "caveat": "Rotation changes the sequence start but not the gap multiset.",
+          "expression": "sorted cyclic differences including wraparound",
+          "id": "onsets-to-gaps",
+          "result": "E gaps [3,3,3,3,4]; cluster gaps [1,1,1,1,12]",
+          "status": "exact-mathematical",
+          "unitId": "cycle-index"
+        },
+        {
+          "assumptions": [
+            "no listening, culture, metre, accent, or task model"
+          ],
+          "caveat": "Even spacing is a combinatorial property only.",
+          "expression": "lower gap variance -> musically better or universal",
+          "id": "evenness-to-aesthetic",
+          "result": "REFUSED",
+          "status": "no-canonical-conversion",
+          "unitId": "not-applicable"
+        }
+      ],
+      "domain": "finite cyclic rhythm geometry",
+      "id": "cyclic-rhythm-spacing",
+      "model": {
+        "acousticCoupling": "NONE.",
+        "boundaryConditions": [
+          "Rotation begins at onset 0 for display.",
+          "Wraparound gap is included."
+        ],
+        "damping": "No damping.",
+        "excitation": "No excitation.",
+        "geometry": "Sixteen equally spaced positions on a displayed circle.",
+        "material": "No performer, tempo, accent, duration, timbre, movement, or musical culture is encoded.",
+        "metric": "Clockwise cyclic gap length in integer steps.",
+        "operator": "Cyclic difference and population variance of five gap lengths.",
+        "sonification": "NONE.",
+        "systemKind": "two onset subsets of Z_16",
+        "topology": "Cyclic residue classes modulo 16."
+      },
+      "ordinal": 8,
+      "quantities": [
+        {
+          "approximateValue": 5,
+          "exactValue": "5",
+          "id": "onset-count",
+          "label": "Onsets in each pattern",
+          "note": "Cardinality held equal.",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        },
+        {
+          "approximateValue": 0.16,
+          "exactValue": "4/25",
+          "id": "euclidean-gap-variance",
+          "label": "Population variance of gaps [3,3,3,3,4]",
+          "note": "Mean gap 16/5.",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        },
+        {
+          "approximateValue": 19.36,
+          "exactValue": "484/25",
+          "id": "cluster-gap-variance",
+          "label": "Population variance of gaps [1,1,1,1,12]",
+          "note": "Mean gap 16/5.",
+          "status": "exact-mathematical",
+          "unitId": "dimensionless"
+        }
+      ],
+      "question": "How can five onsets be compared on a sixteen-step cycle?",
+      "resonanceAssessment": null,
+      "sourceIds": [
+        "toussaint-euclidean-rhythms",
+        "mcdermott-cultural-variation"
+      ],
+      "tables": [
+        {
+          "caption": "Two five-onset subsets of Z_16",
+          "columns": [
+            "pattern",
+            "onset set",
+            "cyclic gaps",
+            "gap variance",
+            "interpretation"
+          ],
+          "rows": [
+            [
+              "Euclidean fixture E(5,16)",
+              "[0,3,6,9,12]",
+              "[3,3,3,3,4]",
+              "4/25",
+              "more even under declared gap variance"
+            ],
+            [
+              "clustered contrast",
+              "[0,1,2,3,4]",
+              "[1,1,1,1,12]",
+              "484/25",
+              "less even under declared gap variance"
+            ]
+          ]
+        }
+      ],
+      "title": "Equal onset count does not imply equal spacing—or musical rank",
+      "visualAssetPath": "assets/rhythm-cycle.svg"
+    }
+  ],
+  "labId": "shape-resonance-lab-01",
+  "limitations": [
+    "All fixtures are finite, deterministic, synthetic, idealized, and Phase 0.",
+    "No acoustic coupling or sound-pressure model is present; every WAV is declared sonification.",
+    "The producer and page load make no network request and embed no third-party resource. A reader may separately activate a same-origin WAV link or an external source-orientation link; the latter may navigate to and request the named origin under its policies.",
+    "No mathematical quantity is interpreted as healing, consciousness, sacred geometry, cosmic order, universal harmony, cultural rank, or authority.",
+    "Numerical displays do not replace exact expressions, assumptions, units, source code, or falsifiers."
+  ],
+  "mechanicalEnergyBalance": {
+    "entries": [
+      {
+        "expression": "T=(1/2) qdot^T M qdot",
+        "id": "kinetic-energy",
+        "scope": "Declared linear mechanical model only.",
+        "unitId": "joule"
+      },
+      {
+        "expression": "V=(1/2) q^T K q",
+        "id": "elastic-potential-energy",
+        "scope": "Declared linear mechanical model only.",
+        "unitId": "joule"
+      },
+      {
+        "expression": "E=T+V",
+        "id": "total-mechanical-energy",
+        "scope": "Conserved only when forcing and damping are absent under the declared model.",
+        "unitId": "joule"
+      },
+      {
+        "expression": "P_d=qdot^T C qdot",
+        "id": "damping-power",
+        "scope": "A nonnegative loss rate when C is positive semidefinite; it is not an energy store.",
+        "unitId": "watt"
+      },
+      {
+        "expression": "P_f(t)=eta_dot*Q(t)=eta_dot*Q0*cos(Omega*t)",
+        "id": "forcing-power",
+        "scope": "Signed instantaneous mechanical power supplied to the declared driven scalar mode; Q0 is the generalized-force amplitude.",
+        "unitId": "watt"
+      },
+      {
+        "expression": "PCM code != joule",
+        "id": "pcm-amplitude-is-not-energy",
+        "scope": "Digital sample amplitude is a declared sonification control and carries no mechanical-energy unit.",
+        "unitId": "pcm16"
+      }
+    ],
+    "invariant": "Every energy or power term is tied to the declared mechanical model and an SI unit; PCM amplitude, loudness, feeling, value, and metaphor are excluded.",
+    "title": "Mechanical energy balance"
+  },
+  "nextReviewDue": "2027-08-26",
+  "phase": "0-static-synthetic",
+  "protocol": "kingdom.shape-resonance-lab-public-snapshot/0.1",
+  "publication": {
+    "acousticCouplingModelPresent": false,
+    "audioAccess": "READER_ACTIVATED_SAME_ORIGIN_LINK_ONLY",
+    "audioPlayback": "USER_INITIATED_PLAYBACK_ONLY",
+    "audioSemantics": "DECLARED-SONIFICATION",
+    "authorityEffects": "NONE",
+    "authorization": {
+      "byteLength": 1664,
+      "byteReceipt": "sha256:678d255da4c4c2fd318c1cee1056cf20a5ccec21181fcdc784333490d13f5805",
+      "path": "PUBLICATION-AUTHORIZATION.md",
+      "scope": "Exact independently reviewed v0.1 release bytes at declared KINGDOM routes only.",
+      "url": "https://github.com/cambridgetcg/kingdom-shape-resonance-lab/blob/v0.1.0/PUBLICATION-AUTHORIZATION.md"
+    },
+    "autoplay": "NONE",
+    "embeddedAudioControls": "NONE",
+    "embeddedThirdPartyResource": "NONE",
+    "externalAudioRequest": "NONE",
+    "immutableArtifactsRemainHistorical": true,
+    "licence": "UNLICENSED",
+    "overdueMutablePublicationRule": "After nextReviewDue, the active page, mutable alias, and discovery may not be rebuilt or redeployed without a reviewed replacement or explicit full mutable retirement. Immutable bytes do not self-withhold by wall clock.",
+    "pageLoadAudioRequest": "NONE",
+    "pageLoadExternalRequest": "NONE",
+    "personalData": "NONE",
+    "producerNetwork": "NONE",
+    "readerActivatedSourceNavigation": "MAY_REQUEST_NAMED_EXTERNAL_ORIGIN",
+    "soundPressurePrediction": false,
+    "userInitiatedSameOriginAudioGet": "PERMITTED_FOR_DECLARED_WAV_ONLY"
+  },
+  "receipts": {
+    "inputs": [
+      {
+        "byteLength": 7571,
+        "byteReceipt": "sha256:a14b220ef3101af8e32cfd1b71d8196fd525a589f79307f568a3b7c749ae50cc",
+        "canonicalReceipt": "sha256:1d13027fad679a19e2ff150cb8c5412f43c8a2244789ab40ff0cdfd1dcbc9afe",
+        "path": "data/config.json"
+      },
+      {
+        "byteLength": 6822,
+        "byteReceipt": "sha256:10bcaf4d16954692b193a799efea55aabd5e4a7c6f02ba696f6e78b26c9dae6d",
+        "canonicalReceipt": "sha256:307d09b62bbae02abcbd25e9584e9a549eb553d7594fdc1afa4270df52de047e",
+        "path": "data/sources.json"
+      }
+    ],
+    "note": "The output manifest receipts the snapshot, schema, guide, renderer, diagrams, and WAVs without self-reference.",
+    "outputManifestUrl": "https://thekingdom.dev/labs/shape-resonance/output-manifest.json",
+    "outputReceiptLocation": "public/output-manifest.json",
+    "schema": {
+      "byteLength": 34886,
+      "byteReceipt": "sha256:2cafa97ce9ed61e622ac6a4514a27627bda56f4f3131f0373c9a624b19c5e24f",
+      "canonicalReceipt": "sha256:0ace0b29bd30405be01268a138174299ffd67c346c89540c5dc1286e4b2e157c",
+      "path": "schemas/v0.1/public-snapshot.schema.json"
+    }
+  },
+  "routes": {
+    "canonicalSnapshot": "https://thekingdom.dev/labs/shape-resonance-lab-2026-08-26.json",
+    "guide": "https://thekingdom.dev/SHAPE-RESONANCE-LAB-v0.1.md",
+    "human": "https://thekingdom.dev/shape-resonance/",
+    "intendedProducerTag": "https://github.com/cambridgetcg/kingdom-shape-resonance-lab/tree/v0.1.0",
+    "mutableAlias": "https://thekingdom.dev/shape-resonance.json",
+    "schema": "https://thekingdom.dev/schemas/shape-resonance-lab/0.1.json"
+  },
+  "sourceFirewall": {
+    "authorityInferred": false,
+    "bodyReceiptPresent": false,
+    "bodyRetained": false,
+    "currentnessInferred": false,
+    "endorsementInferred": false,
+    "exactTextReviewed": false,
+    "licenceOrReuseInferred": false,
+    "mode": "URL_ONLY_ORIENTATION",
+    "note": "Titles, publishers, URLs, and checked-on dates orient a reader. They are not imported evidence bodies or permissions. No external resource is embedded or requested on page load; activating a source link may navigate to and request the named external origin under that origin's policies."
+  },
+  "sources": [
+    {
+      "checkedOn": "2026-08-25",
+      "id": "mit-modal-analysis",
+      "publisher": "MIT OpenCourseWare",
+      "scope": "Orientation for generalized eigenmodes and mass, stiffness, and damping matrices.",
+      "sourceClass": "teaching-orientation",
+      "title": "Lecture 24: Modal Analysis: Orthogonality, Mass, Stiffness, Damping Matrix",
+      "url": "https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/resources/lecture-24-modal-analysis-orthogonality-mass-stiffness-damping-matrix/"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "mit-wave-equation",
+      "publisher": "MIT OpenCourseWare",
+      "scope": "Orientation for wave-equation boundary-value models.",
+      "sourceClass": "teaching-orientation",
+      "title": "The Wave Equation",
+      "url": "https://ocw.mit.edu/courses/18-303-linear-partial-differential-equations-fall-2006/resources/waveeqni/"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "ucsb-energy-method",
+      "publisher": "University of California, Santa Barbara",
+      "scope": "Orientation for kinetic and elastic energy in the ideal string wave equation.",
+      "sourceClass": "teaching-orientation",
+      "title": "The energy method",
+      "url": "https://web.math.ucsb.edu/~grigoryan/124A/lecs/lec7.pdf"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "nasa-vibration-plates",
+      "publisher": "NASA Technical Reports Server",
+      "scope": "Orientation for plate-vibration theory and boundary-condition dependence.",
+      "sourceClass": "technical-monograph-orientation",
+      "title": "Vibration of plates",
+      "url": "https://ntrs.nasa.gov/citations/19700009156"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "kac-shape-drum",
+      "publisher": "American Mathematical Monthly author-course copy",
+      "scope": "Historical formulation of inverse spectral questions.",
+      "sourceClass": "mathematical-primary-paper",
+      "title": "Can One Hear the Shape of a Drum?",
+      "url": "https://www.math.ucdavis.edu/~saito/courses/ACHA.READ.F03/kac-drum.pdf"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "gww-isospectral-drums",
+      "publisher": "arXiv",
+      "scope": "Context for noncongruent isospectral planar domains; not a source for the finite graph fixture.",
+      "sourceClass": "mathematical-primary-paper",
+      "title": "One cannot hear the shape of a drum",
+      "url": "https://arxiv.org/abs/math/9207215"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "miao-fourier-phase",
+      "publisher": "Journal of the Optical Society of America A author copy",
+      "scope": "Orientation for the Fourier phase problem; the finite reversal theorem is proved directly in the fixture.",
+      "sourceClass": "signal-processing-primary-paper",
+      "title": "Phase retrieval from the magnitude of the Fourier transforms of nonperiodic objects",
+      "url": "https://www.physics.ucla.edu/research/imaging/Publications/pdf/josa_1998_15.pdf"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "tymoczko-chord-geometry",
+      "publisher": "Science",
+      "scope": "Orientation for pitch-class quotient spaces and geometrical voice-leading models.",
+      "sourceClass": "music-theory-primary-paper",
+      "title": "The Geometry of Musical Chords",
+      "url": "https://doi.org/10.1126/science.1126287"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "callender-generalized-voice-leading",
+      "publisher": "PubMed record for Science",
+      "scope": "Orientation for explicitly chosen chord equivalence relations and quotient spaces.",
+      "sourceClass": "music-theory-primary-paper",
+      "title": "Generalized voice-leading spaces",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18420928/"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "toussaint-euclidean-rhythms",
+      "publisher": "Bridges Archive",
+      "scope": "Orientation for Euclidean distribution of onsets; not evidence of aesthetic superiority or universality.",
+      "sourceClass": "rhythm-primary-paper",
+      "title": "The Euclidean Algorithm Generates Traditional Musical Rhythms",
+      "url": "https://www.archive.bridgesmathart.org/2005/bridges2005-47.html"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "consonance-models-review",
+      "publisher": "Psychological Review via PubMed Central",
+      "scope": "Orientation for multiple accounts of simultaneous consonance and their limits.",
+      "sourceClass": "psychoacoustics-review",
+      "title": "Simultaneous Consonance in Music Perception and Composition",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7032667/"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "mcdermott-cultural-variation",
+      "publisher": "Nature author copy",
+      "scope": "Evidence against treating consonance preference as a context-free universal aesthetic.",
+      "sourceClass": "psychoacoustics-primary-paper",
+      "title": "Indifference to dissonance in native Amazonians reveals cultural variation in music perception",
+      "url": "https://mcdermottlab.mit.edu/papers/McDermott_etal_2016_consonance.pdf"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "faraday-acoustical-figures",
+      "publisher": "Philosophical Transactions of the Royal Society historical copy",
+      "scope": "Historical context for particle patterns on vibrating surfaces and their material dependence.",
+      "sourceClass": "historical-primary-paper",
+      "title": "On a peculiar class of acoustical figures; and on certain forms assumed by groups of particles upon vibrating elastic surfaces",
+      "url": "https://www.damtp.cam.ac.uk/user/gold/pdfs/teaching/old_literature/Faraday1831.pdf"
+    },
+    {
+      "checkedOn": "2026-08-25",
+      "id": "plomp-levelt-critical-bandwidth",
+      "publisher": "PubMed record for the Journal of the Acoustical Society of America",
+      "scope": "Historical psychoacoustic orientation for roughness and critical bandwidth; not a universal preference rule.",
+      "sourceClass": "psychoacoustics-primary-paper",
+      "title": "Tonal consonance and critical bandwidth",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5831012/"
+    }
+  ],
+  "state": "DRAFT",
+  "subtitle": "Shape, vibration, energy, sound, and musical geometry without collapsed categories",
+  "title": "What can a shape sing?",
+  "unitRegister": [
+    {
+      "dimension": "dimensionless",
+      "id": "dimensionless",
+      "meaning": "Pure number, graph value, coefficient, or normalized amplitude.",
+      "symbol": "1"
+    },
+    {
+      "dimension": "length",
+      "id": "metre",
+      "meaning": "SI displacement or geometric length.",
+      "symbol": "m"
+    },
+    {
+      "dimension": "inverse-length^2",
+      "id": "inverse-square-metre",
+      "meaning": "Spatial Laplacian eigenvalue for a metric domain.",
+      "symbol": "m^-2"
+    },
+    {
+      "dimension": "mass",
+      "id": "kilogram",
+      "meaning": "SI lumped mass.",
+      "symbol": "kg"
+    },
+    {
+      "dimension": "mass*length/time^2",
+      "id": "newton",
+      "meaning": "SI force in a declared physical model.",
+      "symbol": "N"
+    },
+    {
+      "dimension": "mass/time^2",
+      "id": "newton-per-metre",
+      "meaning": "Linear spring stiffness.",
+      "symbol": "N/m"
+    },
+    {
+      "dimension": "mass/time",
+      "id": "newton-second-per-metre",
+      "meaning": "Linear viscous damping coefficient.",
+      "symbol": "N*s/m"
+    },
+    {
+      "dimension": "length/time",
+      "id": "metre-per-second",
+      "meaning": "Wave speed.",
+      "symbol": "m/s"
+    },
+    {
+      "dimension": "length^2/time",
+      "id": "square-metre-per-second",
+      "meaning": "Square root of plate rigidity divided by areal mass.",
+      "symbol": "m^2/s"
+    },
+    {
+      "dimension": "inverse-time",
+      "id": "radian-per-second",
+      "meaning": "Angular frequency; radians are dimensionless in SI but retained as a semantic label.",
+      "symbol": "rad/s"
+    },
+    {
+      "dimension": "cycles/time",
+      "id": "hertz",
+      "meaning": "Cycles per second; conversion from angular frequency divides by 2π.",
+      "symbol": "Hz"
+    },
+    {
+      "dimension": "mass*length^2/time^2",
+      "id": "joule",
+      "meaning": "Mechanical energy only in this publication.",
+      "symbol": "J"
+    },
+    {
+      "dimension": "mass*length^2/time^3",
+      "id": "watt",
+      "meaning": "Mechanical power or energy transfer rate.",
+      "symbol": "W"
+    },
+    {
+      "dimension": "discrete-time-index",
+      "id": "sample",
+      "meaning": "Integer index in a declared finite digital signal.",
+      "symbol": "sample"
+    },
+    {
+      "dimension": "signed-integer-code",
+      "id": "pcm16",
+      "meaning": "Signed 16-bit sample code; not pressure, displacement, or loudness.",
+      "symbol": "PCM16"
+    },
+    {
+      "dimension": "no-output",
+      "id": "not-applicable",
+      "meaning": "A refused or absent conversion produces no quantity and therefore no physical unit.",
+      "symbol": "N/A"
+    },
+    {
+      "dimension": "declared-log-frequency-step",
+      "id": "semitone-12tet",
+      "meaning": "One step in the explicitly Western 12-tone equal-temperament convention.",
+      "symbol": "st"
+    },
+    {
+      "dimension": "cyclic-index",
+      "id": "cycle-index",
+      "meaning": "A residue-class position in a declared finite cycle.",
+      "symbol": "Z_n"
+    }
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,141 @@
+{
+  "firewall": {
+    "mode": "URL_ONLY_ORIENTATION",
+    "bodyRetained": false,
+    "bodyReceiptPresent": false,
+    "exactTextReviewed": false,
+    "licenceOrReuseInferred": false,
+    "currentnessInferred": false,
+    "endorsementInferred": false,
+    "authorityInferred": false,
+    "note": "Titles, publishers, URLs, and checked-on dates orient a reader. They are not imported evidence bodies or permissions. No external resource is embedded or requested on page load; activating a source link may navigate to and request the named external origin under that origin's policies."
+  },
+  "sources": [
+    {
+      "id": "mit-modal-analysis",
+      "title": "Lecture 24: Modal Analysis: Orthogonality, Mass, Stiffness, Damping Matrix",
+      "publisher": "MIT OpenCourseWare",
+      "sourceClass": "teaching-orientation",
+      "url": "https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/resources/lecture-24-modal-analysis-orthogonality-mass-stiffness-damping-matrix/",
+      "checkedOn": "2026-08-25",
+      "scope": "Orientation for generalized eigenmodes and mass, stiffness, and damping matrices."
+    },
+    {
+      "id": "mit-wave-equation",
+      "title": "The Wave Equation",
+      "publisher": "MIT OpenCourseWare",
+      "sourceClass": "teaching-orientation",
+      "url": "https://ocw.mit.edu/courses/18-303-linear-partial-differential-equations-fall-2006/resources/waveeqni/",
+      "checkedOn": "2026-08-25",
+      "scope": "Orientation for wave-equation boundary-value models."
+    },
+    {
+      "id": "ucsb-energy-method",
+      "title": "The energy method",
+      "publisher": "University of California, Santa Barbara",
+      "sourceClass": "teaching-orientation",
+      "url": "https://web.math.ucsb.edu/~grigoryan/124A/lecs/lec7.pdf",
+      "checkedOn": "2026-08-25",
+      "scope": "Orientation for kinetic and elastic energy in the ideal string wave equation."
+    },
+    {
+      "id": "nasa-vibration-plates",
+      "title": "Vibration of plates",
+      "publisher": "NASA Technical Reports Server",
+      "sourceClass": "technical-monograph-orientation",
+      "url": "https://ntrs.nasa.gov/citations/19700009156",
+      "checkedOn": "2026-08-25",
+      "scope": "Orientation for plate-vibration theory and boundary-condition dependence."
+    },
+    {
+      "id": "kac-shape-drum",
+      "title": "Can One Hear the Shape of a Drum?",
+      "publisher": "American Mathematical Monthly author-course copy",
+      "sourceClass": "mathematical-primary-paper",
+      "url": "https://www.math.ucdavis.edu/~saito/courses/ACHA.READ.F03/kac-drum.pdf",
+      "checkedOn": "2026-08-25",
+      "scope": "Historical formulation of inverse spectral questions."
+    },
+    {
+      "id": "gww-isospectral-drums",
+      "title": "One cannot hear the shape of a drum",
+      "publisher": "arXiv",
+      "sourceClass": "mathematical-primary-paper",
+      "url": "https://arxiv.org/abs/math/9207215",
+      "checkedOn": "2026-08-25",
+      "scope": "Context for noncongruent isospectral planar domains; not a source for the finite graph fixture."
+    },
+    {
+      "id": "miao-fourier-phase",
+      "title": "Phase retrieval from the magnitude of the Fourier transforms of nonperiodic objects",
+      "publisher": "Journal of the Optical Society of America A author copy",
+      "sourceClass": "signal-processing-primary-paper",
+      "url": "https://www.physics.ucla.edu/research/imaging/Publications/pdf/josa_1998_15.pdf",
+      "checkedOn": "2026-08-25",
+      "scope": "Orientation for the Fourier phase problem; the finite reversal theorem is proved directly in the fixture."
+    },
+    {
+      "id": "tymoczko-chord-geometry",
+      "title": "The Geometry of Musical Chords",
+      "publisher": "Science",
+      "sourceClass": "music-theory-primary-paper",
+      "url": "https://doi.org/10.1126/science.1126287",
+      "checkedOn": "2026-08-25",
+      "scope": "Orientation for pitch-class quotient spaces and geometrical voice-leading models."
+    },
+    {
+      "id": "callender-generalized-voice-leading",
+      "title": "Generalized voice-leading spaces",
+      "publisher": "PubMed record for Science",
+      "sourceClass": "music-theory-primary-paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18420928/",
+      "checkedOn": "2026-08-25",
+      "scope": "Orientation for explicitly chosen chord equivalence relations and quotient spaces."
+    },
+    {
+      "id": "toussaint-euclidean-rhythms",
+      "title": "The Euclidean Algorithm Generates Traditional Musical Rhythms",
+      "publisher": "Bridges Archive",
+      "sourceClass": "rhythm-primary-paper",
+      "url": "https://www.archive.bridgesmathart.org/2005/bridges2005-47.html",
+      "checkedOn": "2026-08-25",
+      "scope": "Orientation for Euclidean distribution of onsets; not evidence of aesthetic superiority or universality."
+    },
+    {
+      "id": "consonance-models-review",
+      "title": "Simultaneous Consonance in Music Perception and Composition",
+      "publisher": "Psychological Review via PubMed Central",
+      "sourceClass": "psychoacoustics-review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7032667/",
+      "checkedOn": "2026-08-25",
+      "scope": "Orientation for multiple accounts of simultaneous consonance and their limits."
+    },
+    {
+      "id": "mcdermott-cultural-variation",
+      "title": "Indifference to dissonance in native Amazonians reveals cultural variation in music perception",
+      "publisher": "Nature author copy",
+      "sourceClass": "psychoacoustics-primary-paper",
+      "url": "https://mcdermottlab.mit.edu/papers/McDermott_etal_2016_consonance.pdf",
+      "checkedOn": "2026-08-25",
+      "scope": "Evidence against treating consonance preference as a context-free universal aesthetic."
+    },
+    {
+      "id": "faraday-acoustical-figures",
+      "title": "On a peculiar class of acoustical figures; and on certain forms assumed by groups of particles upon vibrating elastic surfaces",
+      "publisher": "Philosophical Transactions of the Royal Society historical copy",
+      "sourceClass": "historical-primary-paper",
+      "url": "https://www.damtp.cam.ac.uk/user/gold/pdfs/teaching/old_literature/Faraday1831.pdf",
+      "checkedOn": "2026-08-25",
+      "scope": "Historical context for particle patterns on vibrating surfaces and their material dependence."
+    },
+    {
+      "id": "plomp-levelt-critical-bandwidth",
+      "title": "Tonal consonance and critical bandwidth",
+      "publisher": "PubMed record for the Journal of the Acoustical Society of America",
+      "sourceClass": "psychoacoustics-primary-paper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5831012/",
+      "checkedOn": "2026-08-25",
+      "scope": "Historical psychoacoustic orientation for roughness and critical bandwidth; not a universal preference rule."
+    }
+  ]
+}

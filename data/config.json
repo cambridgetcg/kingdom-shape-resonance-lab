@@ -1,0 +1,111 @@
+{
+  "protocol": "kingdom.shape-resonance-lab-public-snapshot/0.1",
+  "labId": "shape-resonance-lab-01",
+  "version": "0.1.0",
+  "title": "What can a shape sing?",
+  "subtitle": "Shape, vibration, energy, sound, and musical geometry without collapsed categories",
+  "phase": "0-static-synthetic",
+  "state": "DRAFT",
+  "asOf": "2026-08-26",
+  "nextReviewDue": "2027-08-26",
+  "authorship": "Maintainer-authorized assisted construction; exact text has not been separately human-reviewed.",
+  "routes": {
+    "human": "https://thekingdom.dev/shape-resonance/",
+    "mutableAlias": "https://thekingdom.dev/shape-resonance.json",
+    "canonicalSnapshot": "https://thekingdom.dev/labs/shape-resonance-lab-2026-08-26.json",
+    "schema": "https://thekingdom.dev/schemas/shape-resonance-lab/0.1.json",
+    "guide": "https://thekingdom.dev/SHAPE-RESONANCE-LAB-v0.1.md",
+    "intendedProducerTag": "https://github.com/cambridgetcg/kingdom-shape-resonance-lab/tree/v0.1.0"
+  },
+  "boundary": {
+    "oneSentence": "Shape defines model-dependent possibilities and excitation selects motion; acoustic coupling would be required for a physical sound-pressure prediction, while this release provides declared sonification only; people and cultures may make music.",
+    "physicalChain": [
+      "geometry-topology-metric-boundary-material",
+      "declared-operator",
+      "eigenmodes",
+      "excitation-and-damping",
+      "structural-motion-and-mechanical-energy",
+      "explicit-acoustic-coupling-or-declared-sonification",
+      "audio-signal",
+      "bounded-musical-perceptual-cultural-interpretation"
+    ],
+    "included": [
+      "finite synthetic mathematical fixtures",
+      "declared linear physical models with units and assumptions",
+      "numerical approximations labelled with precision",
+      "deterministic SVG diagrams and finite PCM WAV sonifications",
+      "falsifiers and non-claims",
+      "12-TET and cyclic-rhythm conventions explicitly scoped"
+    ],
+    "excluded": [
+      "measurements or observations of a physical object",
+      "acoustic radiation or sound-pressure prediction",
+      "microphone, recording, upload, input analysis, tracking, autoplay, or runtime synthesis",
+      "participant, personal, biometric, therapeutic, diagnostic, health, or healing data and claims",
+      "consciousness, quantum-mystical, sacred-geometry, cosmic-harmony, or universal-aesthetic claims",
+      "governmental, scientific, cultural, evaluative, adoption, execution, or decision authority"
+    ],
+    "categorySeparations": [
+      "physical resonance is not musical harmony",
+      "mechanical energy is not loudness, feeling, moral value, or metaphorical energy",
+      "harmonicity and roughness do not by themselves determine consonance or preference",
+      "a spectrum does not uniquely determine shape or waveform",
+      "structural vibration is not automatically radiated sound",
+      "a sonification is an authored mapping, not a measurement"
+    ]
+  },
+  "conversionStatuses": [
+    "exact-mathematical",
+    "physical-model",
+    "numerical-approximation",
+    "declared-sonification",
+    "perceptual-hypothesis",
+    "cultural-interpretation",
+    "no-canonical-conversion"
+  ],
+  "unitRegister": [
+    { "id": "dimensionless", "symbol": "1", "dimension": "dimensionless", "meaning": "Pure number, graph value, coefficient, or normalized amplitude." },
+    { "id": "metre", "symbol": "m", "dimension": "length", "meaning": "SI displacement or geometric length." },
+    { "id": "inverse-square-metre", "symbol": "m^-2", "dimension": "inverse-length^2", "meaning": "Spatial Laplacian eigenvalue for a metric domain." },
+    { "id": "kilogram", "symbol": "kg", "dimension": "mass", "meaning": "SI lumped mass." },
+    { "id": "newton", "symbol": "N", "dimension": "mass*length/time^2", "meaning": "SI force in a declared physical model." },
+    { "id": "newton-per-metre", "symbol": "N/m", "dimension": "mass/time^2", "meaning": "Linear spring stiffness." },
+    { "id": "newton-second-per-metre", "symbol": "N*s/m", "dimension": "mass/time", "meaning": "Linear viscous damping coefficient." },
+    { "id": "metre-per-second", "symbol": "m/s", "dimension": "length/time", "meaning": "Wave speed." },
+    { "id": "square-metre-per-second", "symbol": "m^2/s", "dimension": "length^2/time", "meaning": "Square root of plate rigidity divided by areal mass." },
+    { "id": "radian-per-second", "symbol": "rad/s", "dimension": "inverse-time", "meaning": "Angular frequency; radians are dimensionless in SI but retained as a semantic label." },
+    { "id": "hertz", "symbol": "Hz", "dimension": "cycles/time", "meaning": "Cycles per second; conversion from angular frequency divides by 2π." },
+    { "id": "joule", "symbol": "J", "dimension": "mass*length^2/time^2", "meaning": "Mechanical energy only in this publication." },
+    { "id": "watt", "symbol": "W", "dimension": "mass*length^2/time^3", "meaning": "Mechanical power or energy transfer rate." },
+    { "id": "sample", "symbol": "sample", "dimension": "discrete-time-index", "meaning": "Integer index in a declared finite digital signal." },
+    { "id": "pcm16", "symbol": "PCM16", "dimension": "signed-integer-code", "meaning": "Signed 16-bit sample code; not pressure, displacement, or loudness." },
+    { "id": "not-applicable", "symbol": "N/A", "dimension": "no-output", "meaning": "A refused or absent conversion produces no quantity and therefore no physical unit." },
+    { "id": "semitone-12tet", "symbol": "st", "dimension": "declared-log-frequency-step", "meaning": "One step in the explicitly Western 12-tone equal-temperament convention." },
+    { "id": "cycle-index", "symbol": "Z_n", "dimension": "cyclic-index", "meaning": "A residue-class position in a declared finite cycle." }
+  ],
+  "energyRegister": [
+    { "id": "kinetic-energy", "expression": "T=(1/2) qdot^T M qdot", "unitId": "joule", "scope": "Declared linear mechanical model only." },
+    { "id": "elastic-potential-energy", "expression": "V=(1/2) q^T K q", "unitId": "joule", "scope": "Declared linear mechanical model only." },
+    { "id": "total-mechanical-energy", "expression": "E=T+V", "unitId": "joule", "scope": "Conserved only when forcing and damping are absent under the declared model." },
+    { "id": "damping-power", "expression": "P_d=qdot^T C qdot", "unitId": "watt", "scope": "A nonnegative loss rate when C is positive semidefinite; it is not an energy store." },
+    { "id": "forcing-power", "expression": "P_f(t)=eta_dot*Q(t)=eta_dot*Q0*cos(Omega*t)", "unitId": "watt", "scope": "Signed instantaneous mechanical power supplied to the declared driven scalar mode; Q0 is the generalized-force amplitude." },
+    { "id": "pcm-amplitude-is-not-energy", "expression": "PCM code != joule", "unitId": "pcm16", "scope": "Digital sample amplitude is a declared sonification control and carries no mechanical-energy unit." }
+  ],
+  "outputPolicy": {
+    "producerNetwork": "NONE",
+    "pageLoadExternalRequest": "NONE",
+    "embeddedThirdPartyResource": "NONE",
+    "readerActivatedSourceNavigation": "MAY_REQUEST_NAMED_EXTERNAL_ORIGIN",
+    "pageLoadAudioRequest": "NONE",
+    "userInitiatedSameOriginAudioGet": "PERMITTED_FOR_DECLARED_WAV_ONLY",
+    "externalAudioRequest": "NONE",
+    "audioPlayback": "USER_INITIATED_PLAYBACK_ONLY",
+    "embeddedAudioControls": "NONE",
+    "audioAccess": "READER_ACTIVATED_SAME_ORIGIN_LINK_ONLY",
+    "autoplay": "NONE",
+    "audioSemantics": "DECLARED-SONIFICATION",
+    "personalData": "NONE",
+    "authorityEffects": "NONE",
+    "licence": "UNLICENSED"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@kingdom/shape-resonance-lab",
+  "version": "0.1.0",
+  "description": "Deterministic offline synthetic fixtures for shape, vibration, energy, sound, and bounded musical geometry.",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "kingdom-shape-resonance-lab": "./src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node ./src/cli.mjs validate",
+    "build": "node ./src/cli.mjs build",
+    "build:check": "node ./src/cli.mjs check",
+    "schema:generate": "node ./src/cli.mjs schema",
+    "overview": "node ./src/cli.mjs overview",
+    "check": "node --check ./scripts/schema-definition.mjs && node --check ./src/io.mjs && node --check ./src/schema-validator.mjs && node --check ./src/assets.mjs && node --check ./src/lab.mjs && node --check ./src/public-renderer.mjs && node --check ./src/cli.mjs && node ./src/cli.mjs check"
+  }
+}

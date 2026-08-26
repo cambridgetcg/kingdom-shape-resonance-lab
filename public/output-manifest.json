@@ -1,0 +1,247 @@
+{
+  "acousticBoundary": {
+    "acousticCouplingModelPresent": false,
+    "soundPressurePrediction": false,
+    "wavSemanticType": "DECLARED-SONIFICATION"
+  },
+  "artifactCount": 16,
+  "artifacts": [
+    {
+      "byteLength": 84143,
+      "byteReceipt": "sha256:55de5a53270b7b2f58f088ad169fa2f76f5f7136132448be73498018cce044a3",
+      "canonicalReceipt": "sha256:5887f9444ebbbb707b4b6b7d6177339572ee770ee8e51e263f983267844a3b75",
+      "immutable": true,
+      "mediaType": "application/json",
+      "path": "public/shape-resonance-lab.json",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance-lab-2026-08-26.json",
+      "role": "public-snapshot"
+    },
+    {
+      "byteLength": 34886,
+      "byteReceipt": "sha256:2cafa97ce9ed61e622ac6a4514a27627bda56f4f3131f0373c9a624b19c5e24f",
+      "canonicalReceipt": "sha256:0ace0b29bd30405be01268a138174299ffd67c346c89540c5dc1286e4b2e157c",
+      "immutable": true,
+      "mediaType": "application/schema+json",
+      "path": "schemas/v0.1/public-snapshot.schema.json",
+      "publicUrl": "https://thekingdom.dev/schemas/shape-resonance-lab/0.1.json",
+      "role": "public-schema"
+    },
+    {
+      "byteLength": 8132,
+      "byteReceipt": "sha256:c6a66e8d66303241dfa0c72e04cfa3362276c641cdfa5bcf08606e12406f4c0b",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "text/markdown; charset=utf-8",
+      "path": "SHAPE-RESONANCE-LAB-v0.1.md",
+      "publicUrl": "https://thekingdom.dev/SHAPE-RESONANCE-LAB-v0.1.md",
+      "role": "human-guide"
+    },
+    {
+      "byteLength": 14987,
+      "byteReceipt": "sha256:1c8efd26ef8cdafbe661b2d27dee675a2bd081aa45ab87a787fb1c8911701686",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "text/javascript; charset=utf-8",
+      "path": "src/public-renderer.mjs",
+      "publicUrl": "https://github.com/cambridgetcg/kingdom-shape-resonance-lab/blob/v0.1.0/src/public-renderer.mjs",
+      "role": "authorized-renderer"
+    },
+    {
+      "byteLength": 1664,
+      "byteReceipt": "sha256:678d255da4c4c2fd318c1cee1056cf20a5ccec21181fcdc784333490d13f5805",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "text/markdown; charset=utf-8",
+      "path": "PUBLICATION-AUTHORIZATION.md",
+      "publicUrl": "https://github.com/cambridgetcg/kingdom-shape-resonance-lab/blob/v0.1.0/PUBLICATION-AUTHORIZATION.md",
+      "role": "publication-authorization"
+    },
+    {
+      "byteLength": 2771,
+      "byteReceipt": "sha256:cea637613481cfd12acd90e7d566b5047e7cbf92ce3d4c5db940acaf2bc1d3fa",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "image/svg+xml",
+      "path": "public/assets/boundary-variants.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/boundary-variants.svg",
+      "role": "static-diagram"
+    },
+    {
+      "byteLength": 4558,
+      "byteReceipt": "sha256:5c3c2fd4c247af368ba5ec79e7d680680cc2d5441c1453cec5ed188b57cc64df",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "image/svg+xml",
+      "path": "public/assets/cospectral-graphs.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/cospectral-graphs.svg",
+      "role": "static-diagram"
+    },
+    {
+      "byteLength": 3194,
+      "byteReceipt": "sha256:c3403024102d8e79863234f7b639665e5f5b193d8562f9b9a2557f9971c80185",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "image/svg+xml",
+      "path": "public/assets/graph-to-hz.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/graph-to-hz.svg",
+      "role": "static-diagram"
+    },
+    {
+      "byteLength": 2379,
+      "byteReceipt": "sha256:a756ed02202ce19b4d8a01a52f000c0fd889f010e67aa9c4719dd7e327c6a4bc",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "image/svg+xml",
+      "path": "public/assets/membrane-plate.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/membrane-plate.svg",
+      "role": "static-diagram"
+    },
+    {
+      "byteLength": 3459,
+      "byteReceipt": "sha256:19333d74272c52c89e649a1dfc5a35e2ee6c1c3e3826c577b1744d6455d71dea",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "image/svg+xml",
+      "path": "public/assets/musical-geometry.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/musical-geometry.svg",
+      "role": "static-diagram"
+    },
+    {
+      "byteLength": 2066,
+      "byteReceipt": "sha256:692a5be2735a6ea3d5c0cff594e7c8d05207f228d8ffac2e43126c59a6d14a8a",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "image/svg+xml",
+      "path": "public/assets/phase-magnitude.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/phase-magnitude.svg",
+      "role": "static-diagram"
+    },
+    {
+      "byteLength": 6750,
+      "byteReceipt": "sha256:f6c11ea61f7fa2b9cb21b43aa6d49c4ce1173765dd1726bbb8365447eab5b343",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "image/svg+xml",
+      "path": "public/assets/rhythm-cycle.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/rhythm-cycle.svg",
+      "role": "static-diagram"
+    },
+    {
+      "byteLength": 2271,
+      "byteReceipt": "sha256:d2bdfcbf2ba7e5a5121787912244b5efe7df2f384960a524138b743f6a759009",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "image/svg+xml",
+      "path": "public/assets/square-degeneracy.svg",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/assets/square-degeneracy.svg",
+      "role": "static-diagram"
+    },
+    {
+      "byteLength": 8044,
+      "byteReceipt": "sha256:7ce6187a0396e7108102e4dffa8a8ae26b090f8bd3d67de37312c96dd7c5f556",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "audio/wav",
+      "path": "public/audio/graph-modes.wav",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/audio/graph-modes.wav",
+      "role": "declared-sonification"
+    },
+    {
+      "byteLength": 8044,
+      "byteReceipt": "sha256:157389bd7321f81c47a870d4895ddf4ae8c824f87baee8af03bfa769428f57b5",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "audio/wav",
+      "path": "public/audio/phase-forward.wav",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/audio/phase-forward.wav",
+      "role": "declared-sonification"
+    },
+    {
+      "byteLength": 8044,
+      "byteReceipt": "sha256:db2a43b42f37c6feb3876bb085e2868f68d976e904fc4110a82ef0e4199638f4",
+      "canonicalReceipt": null,
+      "immutable": true,
+      "mediaType": "audio/wav",
+      "path": "public/audio/phase-reversed.wav",
+      "publicUrl": "https://thekingdom.dev/labs/shape-resonance/audio/phase-reversed.wav",
+      "role": "declared-sonification"
+    }
+  ],
+  "asOf": "2026-08-26",
+  "audioRequestPolicy": {
+    "audioAccess": "READER_ACTIVATED_SAME_ORIGIN_LINK_ONLY",
+    "autoplay": "NONE",
+    "embeddedAudioControls": "NONE",
+    "externalRequest": "NONE",
+    "pageLoadAudioRequest": "NONE",
+    "playback": "USER_INITIATED_PLAYBACK_ONLY",
+    "sameOriginGet": "PERMITTED_FOR_DECLARED_WAV_ONLY"
+  },
+  "authorship": "Maintainer-authorized assisted construction; exact text has not been separately human-reviewed.",
+  "coreRoutes": {
+    "canonicalSnapshot": "https://thekingdom.dev/labs/shape-resonance-lab-2026-08-26.json",
+    "guide": "https://thekingdom.dev/SHAPE-RESONANCE-LAB-v0.1.md",
+    "human": "https://thekingdom.dev/shape-resonance/",
+    "intendedProducerTag": "https://github.com/cambridgetcg/kingdom-shape-resonance-lab/tree/v0.1.0",
+    "mutableAlias": "https://thekingdom.dev/shape-resonance.json",
+    "schema": "https://thekingdom.dev/schemas/shape-resonance-lab/0.1.json"
+  },
+  "externalNavigationPolicy": {
+    "embeddedThirdPartyResource": "NONE",
+    "pageLoadExternalRequest": "NONE",
+    "readerActivatedSourceNavigation": "MAY_REQUEST_NAMED_EXTERNAL_ORIGIN",
+    "sourceLinkRel": "noreferrer"
+  },
+  "immutableArtifactsRemainHistorical": true,
+  "manifestPath": "public/output-manifest.json",
+  "manifestPublicUrl": "https://thekingdom.dev/labs/shape-resonance/output-manifest.json",
+  "mutableRetirementRule": "After nextReviewDue, the active page, mutable alias, and discovery may not be rebuilt or redeployed without a reviewed replacement or explicit full mutable retirement. Immutable bytes do not self-withhold by wall clock.",
+  "nextReviewDue": "2027-08-26",
+  "producerProtocol": "kingdom.shape-resonance-lab-public-snapshot/0.1",
+  "producerTag": "https://github.com/cambridgetcg/kingdom-shape-resonance-lab/tree/v0.1.0",
+  "producerVersion": "0.1.0",
+  "protocol": "kingdom.shape-resonance-lab-output-manifest/0.1",
+  "publicationAuthorization": {
+    "byteLength": 1664,
+    "byteReceipt": "sha256:678d255da4c4c2fd318c1cee1056cf20a5ccec21181fcdc784333490d13f5805",
+    "path": "PUBLICATION-AUTHORIZATION.md",
+    "scope": "Exact independently reviewed v0.1 release bytes at declared KINGDOM routes only.",
+    "url": "https://github.com/cambridgetcg/kingdom-shape-resonance-lab/blob/v0.1.0/PUBLICATION-AUTHORIZATION.md"
+  },
+  "retirementFamilyUrls": [
+    "https://thekingdom.dev/shape-resonance/",
+    "https://thekingdom.dev/shape-resonance.json",
+    "https://thekingdom.dev/labs/shape-resonance-lab-2026-08-26.json",
+    "https://thekingdom.dev/schemas/shape-resonance-lab/0.1.json",
+    "https://thekingdom.dev/SHAPE-RESONANCE-LAB-v0.1.md",
+    "https://thekingdom.dev/labs/shape-resonance/output-manifest.json",
+    "https://thekingdom.dev/labs/shape-resonance/assets/boundary-variants.svg",
+    "https://thekingdom.dev/labs/shape-resonance/assets/cospectral-graphs.svg",
+    "https://thekingdom.dev/labs/shape-resonance/assets/graph-to-hz.svg",
+    "https://thekingdom.dev/labs/shape-resonance/assets/membrane-plate.svg",
+    "https://thekingdom.dev/labs/shape-resonance/assets/musical-geometry.svg",
+    "https://thekingdom.dev/labs/shape-resonance/assets/phase-magnitude.svg",
+    "https://thekingdom.dev/labs/shape-resonance/assets/rhythm-cycle.svg",
+    "https://thekingdom.dev/labs/shape-resonance/assets/square-degeneracy.svg",
+    "https://thekingdom.dev/labs/shape-resonance/audio/graph-modes.wav",
+    "https://thekingdom.dev/labs/shape-resonance/audio/phase-forward.wav",
+    "https://thekingdom.dev/labs/shape-resonance/audio/phase-reversed.wav"
+  ],
+  "selfReceiptExcludedReason": "A byte sequence cannot contain its own cryptographic receipt without self-reference; release tests freeze the manifest byte receipt externally.",
+  "sourceAllowlist": [
+    "https://ocw.mit.edu/courses/2-003sc-engineering-dynamics-fall-2011/resources/lecture-24-modal-analysis-orthogonality-mass-stiffness-damping-matrix/",
+    "https://ocw.mit.edu/courses/18-303-linear-partial-differential-equations-fall-2006/resources/waveeqni/",
+    "https://web.math.ucsb.edu/~grigoryan/124A/lecs/lec7.pdf",
+    "https://ntrs.nasa.gov/citations/19700009156",
+    "https://www.math.ucdavis.edu/~saito/courses/ACHA.READ.F03/kac-drum.pdf",
+    "https://arxiv.org/abs/math/9207215",
+    "https://www.physics.ucla.edu/research/imaging/Publications/pdf/josa_1998_15.pdf",
+    "https://doi.org/10.1126/science.1126287",
+    "https://pubmed.ncbi.nlm.nih.gov/18420928/",
+    "https://www.archive.bridgesmathart.org/2005/bridges2005-47.html",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7032667/",
+    "https://mcdermottlab.mit.edu/papers/McDermott_etal_2016_consonance.pdf",
+    "https://www.damtp.cam.ac.uk/user/gold/pdfs/teaching/old_literature/Faraday1831.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/5831012/"
+  ]
+}

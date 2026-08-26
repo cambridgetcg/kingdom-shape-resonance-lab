@@ -1,0 +1,1462 @@
+{
+  "$defs": {
+    "asset": {
+      "additionalProperties": false,
+      "properties": {
+        "accessibilityText": {
+          "maxLength": 2048,
+          "minLength": 1,
+          "type": "string"
+        },
+        "audio": {
+          "additionalProperties": false,
+          "properties": {
+            "amplitudeScale": {
+              "maxLength": 1024,
+              "minLength": 1,
+              "type": "string"
+            },
+            "bitDepth": {
+              "const": 16
+            },
+            "channels": {
+              "const": 1
+            },
+            "clippedSampleCount": {
+              "maximum": 4000,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "clipping": {
+              "type": "boolean"
+            },
+            "container": {
+              "const": "RIFF/WAVE"
+            },
+            "durationSeconds": {
+              "const": 0.5
+            },
+            "encoding": {
+              "const": "PCM signed integer"
+            },
+            "endianness": {
+              "const": "little-endian"
+            },
+            "frameCount": {
+              "const": 4000
+            },
+            "frequencyScale": {
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            "generator": {
+              "maxLength": 256,
+              "minLength": 1,
+              "type": "string"
+            },
+            "nonAudioEquivalent": {
+              "maxLength": 1024,
+              "minLength": 1,
+              "type": "string"
+            },
+            "normalization": {
+              "const": "NONE"
+            },
+            "pcmByteReceipt": {
+              "maxLength": 71,
+              "minLength": 71,
+              "pattern": "^sha256:[0-9a-f]{64}$",
+              "type": "string"
+            },
+            "peakAbsoluteCode": {
+              "maximum": 32768,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "peakFractionOfFullScale": {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            "playbackPolicy": {
+              "const": "USER_INITIATED_SAME_ORIGIN_GET_ONLY"
+            },
+            "preClampPeakAbsoluteCode": {
+              "maximum": 1000000,
+              "minimum": 0,
+              "type": "integer"
+            },
+            "sampleRate": {
+              "const": 8000
+            },
+            "semanticType": {
+              "const": "DECLARED-SONIFICATION"
+            },
+            "sourceFixtureCanonicalReceipt": {
+              "maxLength": 71,
+              "minLength": 71,
+              "pattern": "^sha256:[0-9a-f]{64}$",
+              "type": "string"
+            },
+            "spectralCaveat": {
+              "maxLength": 1024,
+              "minLength": 1,
+              "type": "string"
+            },
+            "storedMaximumCode": {
+              "maximum": 32767,
+              "minimum": -32768,
+              "type": "integer"
+            },
+            "storedMinimumCode": {
+              "maximum": 32767,
+              "minimum": -32768,
+              "type": "integer"
+            },
+            "storedPcmWithinRange": {
+              "type": "boolean"
+            },
+            "timeScale": {
+              "maxLength": 512,
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "semanticType",
+            "container",
+            "encoding",
+            "channels",
+            "sampleRate",
+            "bitDepth",
+            "frameCount",
+            "durationSeconds",
+            "endianness",
+            "pcmByteReceipt",
+            "peakAbsoluteCode",
+            "peakFractionOfFullScale",
+            "storedMinimumCode",
+            "storedMaximumCode",
+            "preClampPeakAbsoluteCode",
+            "clippedSampleCount",
+            "storedPcmWithinRange",
+            "normalization",
+            "clipping",
+            "generator",
+            "sourceFixtureCanonicalReceipt",
+            "frequencyScale",
+            "timeScale",
+            "amplitudeScale",
+            "spectralCaveat",
+            "playbackPolicy",
+            "nonAudioEquivalent"
+          ],
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "byteLength": {
+          "maximum": 4194304,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "byteReceipt": {
+          "maxLength": 71,
+          "minLength": 71,
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "externalReferences": {
+          "type": "boolean"
+        },
+        "mediaType": {
+          "enum": [
+            "image/svg+xml",
+            "audio/wav"
+          ]
+        },
+        "path": {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "publicUrl": {
+          "format": "uri",
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "static-diagram",
+            "declared-sonification"
+          ]
+        },
+        "scripts": {
+          "type": "boolean"
+        },
+        "semanticType": {
+          "enum": [
+            "STATIC-DIAGRAM",
+            "DECLARED-SONIFICATION"
+          ]
+        },
+        "title": {
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "path",
+        "publicUrl",
+        "mediaType",
+        "role",
+        "byteLength",
+        "byteReceipt",
+        "semanticType",
+        "title",
+        "accessibilityText",
+        "externalReferences",
+        "scripts",
+        "audio"
+      ],
+      "type": "object"
+    },
+    "claims": {
+      "additionalProperties": false,
+      "properties": {
+        "claim": {
+          "maxLength": 2048,
+          "minLength": 1,
+          "type": "string"
+        },
+        "falsifier": {
+          "maxLength": 2048,
+          "minLength": 1,
+          "type": "string"
+        },
+        "nonClaims": {
+          "items": {
+            "maxLength": 1024,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "scope": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "claim",
+        "nonClaims",
+        "falsifier",
+        "scope"
+      ],
+      "type": "object"
+    },
+    "conversionEdge": {
+      "additionalProperties": false,
+      "properties": {
+        "doesNotPreserve": {
+          "items": {
+            "maxLength": 256,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 32,
+          "minItems": 0,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "from": {
+          "maxLength": 128,
+          "minLength": 1,
+          "type": "string"
+        },
+        "id": {
+          "maxLength": 96,
+          "minLength": 1,
+          "type": "string"
+        },
+        "operation": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "preserves": {
+          "items": {
+            "maxLength": 256,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 32,
+          "minItems": 0,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "status": {
+          "enum": [
+            "exact-mathematical",
+            "physical-model",
+            "numerical-approximation",
+            "declared-sonification",
+            "perceptual-hypothesis",
+            "cultural-interpretation",
+            "no-canonical-conversion"
+          ]
+        },
+        "to": {
+          "maxLength": 128,
+          "minLength": 1,
+          "type": "string"
+        },
+        "unitsIn": {
+          "items": {
+            "maxLength": 64,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 16,
+          "minItems": 0,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "unitsOut": {
+          "items": {
+            "maxLength": 64,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 16,
+          "minItems": 0,
+          "type": "array",
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "from",
+        "to",
+        "status",
+        "operation",
+        "preserves",
+        "doesNotPreserve",
+        "unitsIn",
+        "unitsOut"
+      ],
+      "type": "object"
+    },
+    "derivation": {
+      "additionalProperties": false,
+      "properties": {
+        "assumptions": {
+          "items": {
+            "maxLength": 512,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "caveat": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "expression": {
+          "maxLength": 2048,
+          "minLength": 1,
+          "type": "string"
+        },
+        "id": {
+          "maxLength": 96,
+          "minLength": 1,
+          "type": "string"
+        },
+        "result": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "exact-mathematical",
+            "physical-model",
+            "numerical-approximation",
+            "declared-sonification",
+            "perceptual-hypothesis",
+            "cultural-interpretation",
+            "no-canonical-conversion"
+          ]
+        },
+        "unitId": {
+          "maxLength": 64,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "expression",
+        "status",
+        "assumptions",
+        "result",
+        "unitId",
+        "caveat"
+      ],
+      "type": "object"
+    },
+    "energyEntry": {
+      "additionalProperties": false,
+      "properties": {
+        "expression": {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "id": {
+          "maxLength": 64,
+          "minLength": 1,
+          "type": "string"
+        },
+        "scope": {
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        },
+        "unitId": {
+          "maxLength": 64,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "expression",
+        "unitId",
+        "scope"
+      ],
+      "type": "object"
+    },
+    "exhibit": {
+      "additionalProperties": false,
+      "properties": {
+        "accessibilitySummary": {
+          "maxLength": 2048,
+          "minLength": 1,
+          "type": "string"
+        },
+        "audioAssetPaths": {
+          "items": {
+            "maxLength": 256,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 3,
+          "minItems": 0,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "claims": {
+          "$ref": "#/$defs/claims"
+        },
+        "derivations": {
+          "items": {
+            "$ref": "#/$defs/derivation"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "domain": {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "id": {
+          "maxLength": 96,
+          "minLength": 1,
+          "type": "string"
+        },
+        "model": {
+          "$ref": "#/$defs/model"
+        },
+        "ordinal": {
+          "maximum": 8,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "quantities": {
+          "items": {
+            "$ref": "#/$defs/quantity"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "question": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "resonanceAssessment": {
+          "additionalProperties": false,
+          "properties": {
+            "analyticPeakDriveRatio": {
+              "maxLength": 256,
+              "minLength": 1,
+              "type": "string"
+            },
+            "couplingDeclared": {
+              "type": "boolean"
+            },
+            "dampingDeclared": {
+              "type": "boolean"
+            },
+            "explanation": {
+              "maxLength": 1024,
+              "minLength": 1,
+              "type": "string"
+            },
+            "forcingDeclared": {
+              "type": "boolean"
+            },
+            "measuredResonance": {
+              "type": "boolean"
+            },
+            "modelResonanceCriterionSatisfied": {
+              "type": "boolean"
+            },
+            "phaseCriterion": {
+              "maxLength": 512,
+              "minLength": 1,
+              "type": "string"
+            },
+            "phaseCriterionSatisfied": {
+              "type": "boolean"
+            },
+            "physicalExperimentPerformed": {
+              "type": "boolean"
+            },
+            "responseObservable": {
+              "maxLength": 256,
+              "minLength": 1,
+              "type": "string"
+            },
+            "sweepDeclared": {
+              "type": "boolean"
+            },
+            "syntheticResponsePeakDetected": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "forcingDeclared",
+            "couplingDeclared",
+            "dampingDeclared",
+            "responseObservable",
+            "sweepDeclared",
+            "analyticPeakDriveRatio",
+            "syntheticResponsePeakDetected",
+            "phaseCriterion",
+            "phaseCriterionSatisfied",
+            "modelResonanceCriterionSatisfied",
+            "physicalExperimentPerformed",
+            "measuredResonance",
+            "explanation"
+          ],
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "sourceIds": {
+          "items": {
+            "maxLength": 96,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 14,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "tables": {
+          "items": {
+            "$ref": "#/$defs/table"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "title": {
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        },
+        "visualAssetPath": {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "ordinal",
+        "title",
+        "question",
+        "domain",
+        "model",
+        "quantities",
+        "derivations",
+        "tables",
+        "claims",
+        "visualAssetPath",
+        "audioAssetPaths",
+        "sourceIds",
+        "accessibilitySummary",
+        "resonanceAssessment"
+      ],
+      "type": "object"
+    },
+    "model": {
+      "additionalProperties": false,
+      "properties": {
+        "acousticCoupling": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "boundaryConditions": {
+          "items": {
+            "maxLength": 1024,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 16,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "damping": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "excitation": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "geometry": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "material": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "operator": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "sonification": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "systemKind": {
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        },
+        "topology": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "systemKind",
+        "geometry",
+        "topology",
+        "metric",
+        "boundaryConditions",
+        "material",
+        "operator",
+        "excitation",
+        "damping",
+        "acousticCoupling",
+        "sonification"
+      ],
+      "type": "object"
+    },
+    "quantity": {
+      "additionalProperties": false,
+      "properties": {
+        "approximateValue": {
+          "maximum": 1000000000000000,
+          "minimum": -1000000000000000,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "exactValue": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "maxLength": 96,
+          "minLength": 1,
+          "type": "string"
+        },
+        "label": {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "note": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "exact-mathematical",
+            "physical-model",
+            "numerical-approximation",
+            "declared-sonification",
+            "perceptual-hypothesis",
+            "cultural-interpretation",
+            "no-canonical-conversion"
+          ]
+        },
+        "unitId": {
+          "maxLength": 64,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "exactValue",
+        "approximateValue",
+        "unitId",
+        "status",
+        "note"
+      ],
+      "type": "object"
+    },
+    "source": {
+      "additionalProperties": false,
+      "properties": {
+        "checkedOn": {
+          "format": "date",
+          "maxLength": 10,
+          "minLength": 10,
+          "type": "string"
+        },
+        "id": {
+          "maxLength": 96,
+          "minLength": 1,
+          "type": "string"
+        },
+        "publisher": {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "scope": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "sourceClass": {
+          "maxLength": 96,
+          "minLength": 1,
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "publisher",
+        "sourceClass",
+        "url",
+        "checkedOn",
+        "scope"
+      ],
+      "type": "object"
+    },
+    "sourceFirewall": {
+      "additionalProperties": false,
+      "properties": {
+        "authorityInferred": {
+          "const": false
+        },
+        "bodyReceiptPresent": {
+          "const": false
+        },
+        "bodyRetained": {
+          "const": false
+        },
+        "currentnessInferred": {
+          "const": false
+        },
+        "endorsementInferred": {
+          "const": false
+        },
+        "exactTextReviewed": {
+          "const": false
+        },
+        "licenceOrReuseInferred": {
+          "const": false
+        },
+        "mode": {
+          "const": "URL_ONLY_ORIENTATION"
+        },
+        "note": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "mode",
+        "bodyRetained",
+        "bodyReceiptPresent",
+        "exactTextReviewed",
+        "licenceOrReuseInferred",
+        "currentnessInferred",
+        "endorsementInferred",
+        "authorityInferred",
+        "note"
+      ],
+      "type": "object"
+    },
+    "table": {
+      "additionalProperties": false,
+      "properties": {
+        "caption": {
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        },
+        "columns": {
+          "items": {
+            "maxLength": 256,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 16,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "rows": {
+          "items": {
+            "items": {
+              "maxLength": 4096,
+              "minLength": 0,
+              "type": "string"
+            },
+            "maxItems": 16,
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": false
+          },
+          "maxItems": 128,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": false
+        }
+      },
+      "required": [
+        "caption",
+        "columns",
+        "rows"
+      ],
+      "type": "object"
+    },
+    "unit": {
+      "additionalProperties": false,
+      "properties": {
+        "dimension": {
+          "maxLength": 128,
+          "minLength": 1,
+          "type": "string"
+        },
+        "id": {
+          "maxLength": 64,
+          "minLength": 1,
+          "type": "string"
+        },
+        "meaning": {
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        },
+        "symbol": {
+          "maxLength": 32,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "symbol",
+        "dimension",
+        "meaning"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://thekingdom.dev/schemas/shape-resonance-lab/0.1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Closed deterministic static synthetic models, counterexamples, diagrams, and declared sonifications.",
+  "properties": {
+    "asOf": {
+      "format": "date",
+      "maxLength": 10,
+      "minLength": 10,
+      "type": "string"
+    },
+    "assets": {
+      "items": {
+        "$ref": "#/$defs/asset"
+      },
+      "maxItems": 11,
+      "minItems": 11,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "authorship": {
+      "maxLength": 512,
+      "minLength": 1,
+      "type": "string"
+    },
+    "boundary": {
+      "additionalProperties": false,
+      "properties": {
+        "categorySeparations": {
+          "items": {
+            "maxLength": 512,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "excluded": {
+          "items": {
+            "maxLength": 512,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "included": {
+          "items": {
+            "maxLength": 512,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 32,
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "oneSentence": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "physicalChain": {
+          "items": {
+            "maxLength": 128,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 8,
+          "minItems": 8,
+          "type": "array",
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "oneSentence",
+        "physicalChain",
+        "included",
+        "excluded",
+        "categorySeparations"
+      ],
+      "type": "object"
+    },
+    "conversionEdges": {
+      "items": {
+        "$ref": "#/$defs/conversionEdge"
+      },
+      "maxItems": 32,
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "conversionStatuses": {
+      "items": {
+        "enum": [
+          "exact-mathematical",
+          "physical-model",
+          "numerical-approximation",
+          "declared-sonification",
+          "perceptual-hypothesis",
+          "cultural-interpretation",
+          "no-canonical-conversion"
+        ]
+      },
+      "maxItems": 7,
+      "minItems": 7,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "exhibits": {
+      "items": {
+        "$ref": "#/$defs/exhibit"
+      },
+      "maxItems": 8,
+      "minItems": 8,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "labId": {
+      "const": "shape-resonance-lab-01"
+    },
+    "limitations": {
+      "items": {
+        "maxLength": 1024,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 16,
+      "minItems": 5,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "mechanicalEnergyBalance": {
+      "additionalProperties": false,
+      "properties": {
+        "entries": {
+          "items": {
+            "$ref": "#/$defs/energyEntry"
+          },
+          "maxItems": 6,
+          "minItems": 6,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "invariant": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "title": {
+          "const": "Mechanical energy balance"
+        }
+      },
+      "required": [
+        "title",
+        "entries",
+        "invariant"
+      ],
+      "type": "object"
+    },
+    "nextReviewDue": {
+      "format": "date",
+      "maxLength": 10,
+      "minLength": 10,
+      "type": "string"
+    },
+    "phase": {
+      "const": "0-static-synthetic"
+    },
+    "protocol": {
+      "const": "kingdom.shape-resonance-lab-public-snapshot/0.1"
+    },
+    "publication": {
+      "additionalProperties": false,
+      "properties": {
+        "acousticCouplingModelPresent": {
+          "const": false
+        },
+        "audioAccess": {
+          "const": "READER_ACTIVATED_SAME_ORIGIN_LINK_ONLY"
+        },
+        "audioPlayback": {
+          "const": "USER_INITIATED_PLAYBACK_ONLY"
+        },
+        "audioSemantics": {
+          "const": "DECLARED-SONIFICATION"
+        },
+        "authorityEffects": {
+          "const": "NONE"
+        },
+        "authorization": {
+          "additionalProperties": false,
+          "properties": {
+            "byteLength": {
+              "maximum": 131072,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "byteReceipt": {
+              "maxLength": 71,
+              "minLength": 71,
+              "pattern": "^sha256:[0-9a-f]{64}$",
+              "type": "string"
+            },
+            "path": {
+              "const": "PUBLICATION-AUTHORIZATION.md"
+            },
+            "scope": {
+              "maxLength": 512,
+              "minLength": 1,
+              "type": "string"
+            },
+            "url": {
+              "const": "https://github.com/cambridgetcg/kingdom-shape-resonance-lab/blob/v0.1.0/PUBLICATION-AUTHORIZATION.md"
+            }
+          },
+          "required": [
+            "path",
+            "url",
+            "byteLength",
+            "byteReceipt",
+            "scope"
+          ],
+          "type": "object"
+        },
+        "autoplay": {
+          "const": "NONE"
+        },
+        "embeddedAudioControls": {
+          "const": "NONE"
+        },
+        "embeddedThirdPartyResource": {
+          "const": "NONE"
+        },
+        "externalAudioRequest": {
+          "const": "NONE"
+        },
+        "immutableArtifactsRemainHistorical": {
+          "const": true
+        },
+        "licence": {
+          "const": "UNLICENSED"
+        },
+        "overdueMutablePublicationRule": {
+          "maxLength": 1024,
+          "minLength": 1,
+          "type": "string"
+        },
+        "pageLoadAudioRequest": {
+          "const": "NONE"
+        },
+        "pageLoadExternalRequest": {
+          "const": "NONE"
+        },
+        "personalData": {
+          "const": "NONE"
+        },
+        "producerNetwork": {
+          "const": "NONE"
+        },
+        "readerActivatedSourceNavigation": {
+          "const": "MAY_REQUEST_NAMED_EXTERNAL_ORIGIN"
+        },
+        "soundPressurePrediction": {
+          "const": false
+        },
+        "userInitiatedSameOriginAudioGet": {
+          "const": "PERMITTED_FOR_DECLARED_WAV_ONLY"
+        }
+      },
+      "required": [
+        "producerNetwork",
+        "pageLoadExternalRequest",
+        "embeddedThirdPartyResource",
+        "readerActivatedSourceNavigation",
+        "pageLoadAudioRequest",
+        "userInitiatedSameOriginAudioGet",
+        "externalAudioRequest",
+        "audioPlayback",
+        "embeddedAudioControls",
+        "audioAccess",
+        "autoplay",
+        "audioSemantics",
+        "personalData",
+        "authorityEffects",
+        "licence",
+        "authorization",
+        "acousticCouplingModelPresent",
+        "soundPressurePrediction",
+        "immutableArtifactsRemainHistorical",
+        "overdueMutablePublicationRule"
+      ],
+      "type": "object"
+    },
+    "receipts": {
+      "additionalProperties": false,
+      "properties": {
+        "inputs": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "byteLength": {
+                "maximum": 4194304,
+                "minimum": 1,
+                "type": "integer"
+              },
+              "byteReceipt": {
+                "maxLength": 71,
+                "minLength": 71,
+                "pattern": "^sha256:[0-9a-f]{64}$",
+                "type": "string"
+              },
+              "canonicalReceipt": {
+                "maxLength": 71,
+                "minLength": 71,
+                "pattern": "^sha256:[0-9a-f]{64}$",
+                "type": "string"
+              },
+              "path": {
+                "maxLength": 256,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "path",
+              "byteLength",
+              "byteReceipt",
+              "canonicalReceipt"
+            ],
+            "type": "object"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "note": {
+          "maxLength": 512,
+          "minLength": 1,
+          "type": "string"
+        },
+        "outputManifestUrl": {
+          "const": "https://thekingdom.dev/labs/shape-resonance/output-manifest.json"
+        },
+        "outputReceiptLocation": {
+          "const": "public/output-manifest.json"
+        },
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "byteLength": {
+              "maximum": 4194304,
+              "minimum": 1,
+              "type": "integer"
+            },
+            "byteReceipt": {
+              "maxLength": 71,
+              "minLength": 71,
+              "pattern": "^sha256:[0-9a-f]{64}$",
+              "type": "string"
+            },
+            "canonicalReceipt": {
+              "maxLength": 71,
+              "minLength": 71,
+              "pattern": "^sha256:[0-9a-f]{64}$",
+              "type": "string"
+            },
+            "path": {
+              "maxLength": 256,
+              "minLength": 1,
+              "type": "string"
+            }
+          },
+          "required": [
+            "path",
+            "byteLength",
+            "byteReceipt",
+            "canonicalReceipt"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "inputs",
+        "schema",
+        "outputReceiptLocation",
+        "outputManifestUrl",
+        "note"
+      ],
+      "type": "object"
+    },
+    "routes": {
+      "additionalProperties": false,
+      "properties": {
+        "canonicalSnapshot": {
+          "format": "uri",
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "guide": {
+          "format": "uri",
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "human": {
+          "format": "uri",
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "intendedProducerTag": {
+          "format": "uri",
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "mutableAlias": {
+          "format": "uri",
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        "schema": {
+          "format": "uri",
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "human",
+        "mutableAlias",
+        "canonicalSnapshot",
+        "schema",
+        "guide",
+        "intendedProducerTag"
+      ],
+      "type": "object"
+    },
+    "sourceFirewall": {
+      "$ref": "#/$defs/sourceFirewall"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "maxItems": 14,
+      "minItems": 14,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "state": {
+      "const": "DRAFT"
+    },
+    "subtitle": {
+      "maxLength": 256,
+      "minLength": 1,
+      "type": "string"
+    },
+    "title": {
+      "const": "What can a shape sing?"
+    },
+    "unitRegister": {
+      "items": {
+        "$ref": "#/$defs/unit"
+      },
+      "maxItems": 32,
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "version": {
+      "const": "0.1.0"
+    }
+  },
+  "required": [
+    "protocol",
+    "labId",
+    "version",
+    "title",
+    "subtitle",
+    "phase",
+    "state",
+    "asOf",
+    "nextReviewDue",
+    "authorship",
+    "routes",
+    "boundary",
+    "publication",
+    "receipts",
+    "conversionStatuses",
+    "unitRegister",
+    "mechanicalEnergyBalance",
+    "conversionEdges",
+    "sourceFirewall",
+    "sources",
+    "exhibits",
+    "assets",
+    "limitations"
+  ],
+  "title": "KINGDOM Shape & Resonance Lab 01 public snapshot v0.1",
+  "type": "object"
+}
